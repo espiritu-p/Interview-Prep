@@ -30,7 +30,7 @@ solve it cold, explain it clearly, and handle variations under interview pressur
 | Bit Manipulation | 🟠 Familiar | 5 problems solved but concepts not internalized — XOR tricks and bitmasking patterns need re-learning from scratch | Cannot explain the underlying bit mechanics; needs redo before mediums |
 | Two Pointers | 🟡 Developing | 2 problems (Valid Palindrome Easy, Move Zeroes Easy) — both solved independently, O(n) write-pointer approach on second | Untested on sorted array variants (Two Sum II, 3Sum, Container With Most Water) |
 | Sliding Window | 🟠 Familiar | 2 problems (Fruits Into Baskets, Maximum Erasure Value) but template not solid; needs redo | Cannot reliably identify window expand/shrink conditions; medium problems unreliable |
-| Stack | 🟠 Familiar | 1 easy (Valid Parentheses) solved independently and cleanly | Only 1 problem; monotonic stack and harder variations (Daily Temperatures, Largest Rectangle) untested |
+| Stack | 🟠 Familiar | 2 problems (Valid Parentheses Easy independent, Min Stack Medium with hints) — two-stack pattern understood | Monotonic stack and harder variations (Daily Temperatures, Largest Rectangle) untested |
 | Binary Search | 🟠 Familiar | 1 easy (Binary Search) — textbook correct, all edge cases; clean implementation | Only the base case; rotated array, peak finding, and answer-space binary search untested |
 
 ---
@@ -124,7 +124,7 @@ solve it cold, explain it clearly, and handle variations under interview pressur
 - [x] Valid Parentheses
 - [ ] Decode String
 - [ ] Asteroid Collision
-- [ ] Min Stack
+- [x] Min Stack
 - [ ] Evaluate Reverse Polish Notation
 - [ ] Generate Parentheses
 - [ ] Daily Temperatures

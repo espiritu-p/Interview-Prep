@@ -5,7 +5,7 @@
 Python DSA practice + AI engineering + system design — working toward interview-ready by **October 1, 2026**.
 
 [![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
-[![LeetCode](https://img.shields.io/badge/LeetCode-31%20Solved-FFA116?style=flat-square&logo=leetcode&logoColor=black)](https://leetcode.com/)
+[![LeetCode](https://img.shields.io/badge/LeetCode-32%20Solved-FFA116?style=flat-square&logo=leetcode&logoColor=black)](https://leetcode.com/)
 [![Kattis](https://img.shields.io/badge/Kattis-144%20Solved-1F8ACB?style=flat-square)](https://open.kattis.com/)
 [![Last Commit](https://img.shields.io/github/last-commit/espiritu-p/Interview-Prep?style=flat-square&color=brightgreen)](https://github.com/espiritu-p/Interview-Prep/commits/master)
 
