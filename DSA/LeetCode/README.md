@@ -1,11 +1,10 @@
 # LeetCode Solutions
 
-30 problems solved, organized by topic. Each file has inline comments explaining the approach and any tricky edge cases.
+31 problems solved, organized by topic. Each file has inline comments explaining the approach and any tricky edge cases.
 
 ---
 
 ## Topics
-
 | Topic | Problems | Notes |
 |-------|----------|-------|
 | [Arrays](./Arrays/) | 4 | Greedy + simulation on sequences |
@@ -17,8 +16,8 @@
 | [Sliding Window](./Sliding%20Window/) | 2 | Variable/fixed window over array |
 | [Stack](./Stack/) | 1 | LIFO matching and monotonic stacks |
 | [Tree and Graph](./Tree%20and%20Graph/) | 1 | DFS on trees |
+| [Two Pointers](./Two%20Pointers/) | 2 | In-place pointer manipulation |
 | [Advanced](./Advanced/) | 2 | Segment tree, sorted containers |
-
 ---
 
 ## Arrays
@@ -84,6 +83,13 @@
 | # | Problem | Difficulty |
 |---|---------|-----------|
 | 20 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | Easy |
+
+## Two Pointers
+
+| # | Problem | Difficulty |
+|---|---------|-----------| 
+| 125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | Easy |
+| 283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | Easy |
 
 ## Tree and Graph
 
