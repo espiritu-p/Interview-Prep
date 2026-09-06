@@ -30,6 +30,23 @@ Persistent record for cross-session coaching. Updated after every completed sess
 
 ---
 
+## Pre-Session References
+
+Read/watch before each session — concept walkthrough + quiz assumes one pass through the material. Links verified 2026-09-06.
+
+| Session | Read | Watch |
+|---------|------|-------|
+| 1.1 — Transformer architecture | [Jay Alammar — The Illustrated Transformer](https://jalammar.github.io/illustrated-transformer/) · [Hugging Face LLM Course](https://huggingface.co/learn/llm-course) (ch.1 covers the same ground) | [3Blue1Brown — Attention in transformers, step-by-step](https://www.youtube.com/watch?v=eMlx5fFNoYc) |
+| 1.2 — Attention deep-dive | [HF blog — Attention is all you need walkthrough](https://huggingface.co/blog/Esmail-AGumaan/attention-is-all-you-need) | [3Blue1Brown video above](https://www.youtube.com/watch?v=eMlx5fFNoYc) (best single explainer) · [Alammar video companion](https://www.youtube.com/watch?v=hVEo76eZmpo) |
+| 1.3 — Positional encoding | [HF blog — Designing Positional Encoding for Transformers](https://huggingface.co/blog/designing-positional-encoding) · [EleutherAI — Rotary Embeddings: A Relative Revolution](https://blog.eleuther.ai/rotary-embeddings/) · [Raschka — Positional info FAQ](https://sebastianraschka.com/faq/docs/positional-information-transformer.html) | [Transformer Explainer (interactive)](https://poloclub.github.io/transformer-explainer/) |
+| 1.4 — KV cache | [Lilian Weng — LLM Inference Optimization](https://lilianweng.github.io/posts/2023-01-10-inference-optimization/) (KV cache section) · [KV caching explained](https://medium.com/@joaolages/kv-caching-explained-276520203249) | — |
+| 1.5 — Scaling laws | [Kaplan et al. — Scaling Laws for Neural LMs](https://arxiv.org/abs/2001.08361) (skim abstract + ch.2) · [Hoffmann et al. — Chinchilla](https://arxiv.org/abs/2203.15556) (read blog summary first) | — |
+| 1.6 — Tokenization | [HF — How tokenizers work (course ch.2)](https://huggingface.co/learn/llm-course/en/chapter2/2) · [minbpe (Karpathy's reference BPE)](https://github.com/karpathy/minbpe) · [Tiktokenizer (live playground)](https://tiktokenizer.vercel.app/) | [Karpathy — Let's build the GPT Tokenizer](https://www.youtube.com/watch?v=zduSFxRajkE) (~2h; watch at 1.5×, skip the coding if time-pressed — the first hour is the concept) |
+
+**Supplement (any session):** [Lilian Weng — The Transformer Family v2](https://lilianweng.github.io/posts/2023-01-27-the-transformer-family-v2/) — dense but it's the reference map for everything in Phase 1.
+
+---
+
 ## Sessions
 
 ### Session 1 — 2026-09-04 — Phase 1.1: Transformer architecture ✅ Complete

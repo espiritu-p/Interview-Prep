@@ -31,6 +31,7 @@ in-memory state carries over — the coaching logs are the source of truth.
 3. **Clarifying questions welcome mid-session.** Log as a teachable moment, not a gap.
 4. **Always ask before proceeding.** After finishing a session or sub-step, present options and wait for the user's go-ahead before starting the next one.
 5. **Generic changes apply to all topics.** Any structural update made to one track's files (COACHING.md, PLAN.md, READMEs, protocol sections) must be checked and mirrored across all three tracks — DSA, System Design, and AI Engineering — before committing.
+6. **Links always.** DSA assignments must include LeetCode URLs. SD and AI sessions must include pre-session references (verified links in each track's COACHING.md Pre-Session References section) so the user can read or watch before the quiz.
 
 ### DSA review rubric (apply to every submitted solution)
 1. **Correctness first** — loop bounds, off-by-one, edge cases (empty, single element, all-invalid input)

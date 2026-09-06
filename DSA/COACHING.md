@@ -193,6 +193,27 @@ Tries, DP 2D, Advanced Graphs, Intervals, Segment Trees, Math & Geometry
 
 ---
 
+### Session 2 — 2026-09-05/06
+
+**Assigned challenges (Session 2):**
+
+| # | Problem | Topic | Difficulty | Status |
+|---|---|---|---|---|
+| 4 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | Two Pointers | Easy | ✅ Done (Sept 5) |
+| 5 | [Min Stack](https://leetcode.com/problems/min-stack/) | Stack | Medium | ✅ Done (Sept 5) |
+| 6 | [Two Sum II — Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | Two Pointers | Medium | 🔜 In progress (Sept 6) |
+| 7 | [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | Stack | Medium | 🔜 In progress (Sept 6) |
+
+**Move Zeroes (Sept 5)** — committed as `solved(LeetCode): #283`
+- Correct write-pointer + backfill approach, O(n)/O(1) stated upfront
+- Coach notes: `range(len(nums))` → `enumerate` where index isn't the point; docstring plan block is good interview behavior — keep narrating before coding
+
+**Min Stack (Sept 5)** — committed as `solved(LeetCode): #155`
+- Two-stack design correct including duplicate handling (`<=` on push, match-check on pop) — the duplicate case is where most candidates fail
+- Coach notes: name the space tradeoff unprompted (`min_list` can be O(n); alternate = store `(value, current_min)` pairs, same worst case but one stack); `getMin` capitalization is LeetCode's, not yours — leave it
+
+---
+
 ## How to Update This File
 
 **After a DSA problem:** tell me the name, whether you solved independently or needed hints, and what tripped you up. I'll log it and assign the next one.

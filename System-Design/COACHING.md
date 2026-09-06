@@ -25,6 +25,23 @@ Persistent record. Updated after every completed session.
 
 ---
 
+## Pre-Session References
+
+Read before each session. The concept walkthrough assumes you've seen the material once — links verified 2026-09-06.
+
+| Session | Read |
+|---------|------|
+| 1.1 — Scale of numbers | [Colin Scott — Interactive latency numbers](https://colin-scott.github.io/personal_website/research/interactive_latency.html) · [Sam Watt — Numbers everyone should know](https://samwho.dev/numbers/) |
+| 1.2 — APIs | [gRPC — What is gRPC](https://grpc.io/docs/what-is-grpc/introduction/) · [GraphQL — Learn](https://graphql.org/learn/) · [MDN — HTTP request methods](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Methods) |
+| 1.3 — DNS + LB | [ByteByteGo — How DNS lookup works](https://bytebytego.com/guides/how-does-the-domain-name-system-dns-lookup-work/) · [ByteByteGo — Load balancers cheat sheet](https://medium.com/bytebytego-system-design-alliance/everything-about-load-balancer-with-cheat-sheet-64b351f0f7b3) · [Cloudflare — What is DNS](https://www.cloudflare.com/learning/dns/) |
+| 1.4 — CDN | [ByteByteGo — How does a CDN work](https://blog.bytebytego.com/p/how-does-cdn-work) · [Cloudflare — What is a CDN](https://www.cloudflare.com/learning/cdn/what-is-a-cdn/) |
+| 1.5 — Proxies + gateways | [AWS — What is an API gateway](https://aws.amazon.com/api-gateway/) · [MDN — Proxy (glossary)](https://developer.mozilla.org/en-US/docs/Glossary/Proxy) · [Cloudflare — What is a load balancer](https://www.cloudflare.com/learning/performance/what-is-load-balancing/) |
+| 1.6 — Consistent hashing | [Wikipedia — Consistent hashing](https://en.wikipedia.org/wiki/Consistent_hashing) · [High Scalability](https://highscalability.com/) |
+
+**Week 1 drill:** map every pattern to its cloud service names as you go — LB → AWS ALB/NLB → Azure App Gateway/Front Door; DNS → Route53 → Azure DNS. Gap noted at baseline.
+
+---
+
 ## Sessions
 
 ### Session 1 — 2026-09-04 — Phase 1.1: Scale of numbers + estimation
