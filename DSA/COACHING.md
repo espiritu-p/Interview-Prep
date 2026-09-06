@@ -101,7 +101,7 @@ Tries, DP 2D, Advanced Graphs, Intervals, Segment Trees, Math & Geometry
 | Day | DSA | System Design | AI Engineering |
 |-----|-----|---------------|----------------|
 | Sept 4 ✅ | Valid Palindrome · Valid Parentheses · Binary Search | `SD: Phase 1.1` — Scale of numbers + estimation | `AI: Phase 1.1` — Transformer architecture |
-| Sept 5 | Move Zeroes · Min Stack | `SD: Phase 1.2` — APIs (REST vs gRPC vs GraphQL) | `AI: Phase 1.2` — Attention deep-dive |
+| Sept 5 ✅ | Move Zeroes · Min Stack | `SD: Phase 1.2` — APIs (REST vs gRPC vs GraphQL) | `AI: Phase 1.2` — Attention deep-dive |
 | Sept 6 | Two Sum II · Evaluate Reverse Polish Notation | `SD: Phase 1.3` — DNS + load balancing | `AI: Phase 1.3` — Positional encoding |
 | Sept 7 | 3Sum · Daily Temperatures | `SD: Phase 1.4` — CDN | `AI: Phase 1.4` — KV cache |
 | Sept 8 | Find Min in Rotated Sorted Array · Generate Parentheses | `SD: Phase 1.5` — Proxies + API gateways | `AI: Phase 1.5` — Scaling laws |

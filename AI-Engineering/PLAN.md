@@ -31,8 +31,8 @@ Phase 7 — Safety & Alignment      (Week 7)
 
 | Session | Topic | Key Concepts |
 |---------|-------|-------------|
-| 1.1 | Transformer architecture | Encoder/decoder, residual connections, layer norm, FFN |
-| 1.2 | Attention deep-dive | Scaled dot-product, multi-head, computational complexity O(n²) |
+| ~~1.1~~ ✅ | Transformer architecture | Encoder/decoder, residual connections, layer norm, FFN |
+| ~~1.2~~ ✅ | Attention deep-dive | Scaled dot-product, multi-head, computational complexity O(n²) |
 | 1.3 | Positional encoding | Sinusoidal, RoPE, ALiBi — why and when each matters |
 | 1.4 | KV cache | What it stores, memory cost, why it matters for inference |
 | 1.5 | Scaling laws | Chinchilla, compute-optimal training, emergent abilities |
@@ -160,7 +160,7 @@ Start a session: **`AI: Phase X.Y`** (e.g., `AI: Phase 1.1`)
 
 | Phase | Sessions | Status |
 |-------|----------|--------|
-| 1 — LLM Internals | ✅ 1.1 · 🔜 1.2 · 1.3 · 1.4 · 1.5 · 1.6 | 🟡 In progress |
+| 1 — LLM Internals | ✅ 1.1 · 1.2 · 🔜 1.3 · 1.4 · 1.5 · 1.6 | 🟡 In progress |
 | 2 — Retrieval & RAG | 2.1 · 2.2 · 2.3 · 2.4 · 2.5 · 2.6 · 2.7 | ⬜ Not started |
 | 3 — Agents & Tool Use | 3.1 · 3.2 · 3.3 · 3.4 · 3.5 · 3.6 · 3.7 | ⬜ Not started |
 | 4 — Evaluation & Evals | 4.1 · 4.2 · 4.3 · 4.4 · 4.5 · 4.6 | ⬜ Not started |

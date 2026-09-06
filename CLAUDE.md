@@ -29,7 +29,8 @@ in-memory state carries over — the coaching logs are the source of truth.
    progress must report status across all three tracks — DSA, System Design,
    and AI Engineering.
 3. **Clarifying questions welcome mid-session.** Log as a teachable moment, not a gap.
-4. **Generic changes apply to all topics.** Any structural update made to one track's files (COACHING.md, PLAN.md, READMEs, protocol sections) must be checked and mirrored across all three tracks — DSA, System Design, and AI Engineering — before committing.
+4. **Always ask before proceeding.** After finishing a session or sub-step, present options and wait for the user's go-ahead before starting the next one.
+5. **Generic changes apply to all topics.** Any structural update made to one track's files (COACHING.md, PLAN.md, READMEs, protocol sections) must be checked and mirrored across all three tracks — DSA, System Design, and AI Engineering — before committing.
 
 ### DSA review rubric (apply to every submitted solution)
 1. **Correctness first** — loop bounds, off-by-one, edge cases (empty, single element, all-invalid input)

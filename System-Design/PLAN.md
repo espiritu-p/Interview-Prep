@@ -51,7 +51,7 @@ The primitives. Every single design question touches these.
 | Session | Topic | Key Concepts |
 |---------|-------|-------------|
 | ~~1.1~~ ✅ | Scale of numbers | Latency numbers every engineer should know; QPS estimation; storage units |
-| 1.2 | Client-server & APIs | REST vs. GraphQL vs. gRPC; HTTP/2; long-polling vs. SSE vs. WebSocket |
+| ~~1.2~~ ✅ | Client-server & APIs | REST vs. GraphQL vs. gRPC; HTTP/2; long-polling vs. SSE vs. WebSocket |
 | 1.3 | DNS & load balancing | DNS resolution, L4 vs. L7 load balancers, health checks, sticky sessions |
 | 1.4 | CDN | Edge caching, push vs. pull CDN, cache invalidation, origin shield |
 | 1.5 | Proxies & gateways | Forward/reverse proxy, API gateway, rate limiting, auth at the edge |
@@ -151,7 +151,7 @@ Case Study 6.6 is specifically designed for your AI engineering angle — ties b
 
 | Phase | Sessions | Status |
 |-------|----------|--------|
-| 1 — Foundations | ✅ 1.1 · 🔜 1.2 · 1.3 · 1.4 · 1.5 · 1.6 | 🟡 In progress |
+| 1 — Foundations | ✅ 1.1 · 1.2 · 🔜 1.3 · 1.4 · 1.5 · 1.6 | 🟡 In progress |
 | 2 — Storage & Databases | 2.1 · 2.2 · 2.3 · 2.4 · 2.5 · 2.6 · 2.7 | ⬜ Not started |
 | 3 — Scalability Patterns | 3.1 · 3.2 · 3.3 · 3.4 · 3.5 · 3.6 | ⬜ Not started |
 | 4 — Reliability & Ops | 4.1 · 4.2 · 4.3 · 4.4 · 4.5 · 4.6 | ⬜ Not started |

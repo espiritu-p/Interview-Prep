@@ -55,4 +55,23 @@ Persistent record. Updated after every completed session.
 
 ---
 
+### Session 2 — 2026-09-06 — Phase 1.2: Client-server & APIs (REST vs gRPC vs GraphQL)
+
+**Format:** Concept walkthrough + 3-question quiz
+
+**What landed:**
+- All three choices correct: GraphQL for flexible client data (Q1), gRPC for internal microservices (Q2), SSE for one-way notifications (Q3)
+- Q3 reasoning complete — identified unidirectional server-push as the deciding factor over WebSocket
+
+**Gaps found:**
+- Q1 (GraphQL): justified with backend details ("two tables") instead of naming the problem being solved — over-fetch/under-fetch. Also missed the tradeoff (GET caching breaks because queries travel in the body)
+- Q2 (gRPC): correct call but ignored the explicit "migration risk" half of the question. Missing risks: silent binary misreads from field-number reuse, proto schema coordination across 12 services, loss of curl-style debugging, gRPC-web proxy needed for browser clients
+- Teachable moment: user flagged no hands-on gRPC experience — field-number mechanics and `reserved` convention explained (silent misreads in protobuf vs. loud breakage in JSON). Logged as teachable moment, not a gap
+
+**Habit to build:** every API/protocol answer = (1) name the *problem* the choice solves, (2) name the *tradeoff* accepted, (3) address every part of the question asked
+
+**Status: Phase 1.2 ✅ complete**
+
+---
+
 > Coaching protocol and session rules live in [`CLAUDE.md`](../CLAUDE.md) at the repo root.

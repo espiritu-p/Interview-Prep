@@ -58,7 +58,21 @@ Persistent record for cross-session coaching. Updated after every completed sess
 
 ---
 
-### Session 2 — 2026-09-04 — Phase 1.2: Attention deep-dive (Q/K/V) 🔜 Up next
+### Session 2 — 2026-09-06 — Phase 1.2: Attention deep-dive (Q/K/V) ✅ Complete
+
+**Format:** Concept walkthrough (Q/K/V, scaled dot-product, multi-head, causal masking) + 3-question quiz
+
+| Question | Performance | Notes |
+|----------|-------------|-------|
+| Q1 — Why divide by √(dₖ) | ⚠️ Partial | Got the outcome (dot products too big → near-zero gradients); missed the mechanism — softmax saturation into near one-hot + variance of dot product scales with dₖ, so √(dₖ) normalizes variance back to 1 |
+| Q2 — Computational bottleneck | ⚠️ Partial | Correctly named the n×n attention matrix; answer stayed at "more space and time" — missing O(n²·d) time / O(n²) space, quadratic consequence (2× context = 4× cost), and the existence of FlashAttention/sparse/sliding-window attention as responses |
+| Q3 — Why multi-head beats single-head | ⚠️ Partial | Correct core idea (heads attend to different aspects: syntax, coreference); missed that each head has its own learned W_Q/W_K/W_V projections, and that d_k = d_model/h keeps total parameter count identical — diversity for free |
+
+**Pattern across session:** instincts consistently right, answers stop at the outcome instead of the mechanism. Interview differentiator is the *why* behind design choices — drill stating mechanism before consequence.
+
+**Drill for 1.3 (positional encoding):** for every architectural choice encountered, answer "what problem does this solve, and what breaks without it?" in one sentence before moving on.
+
+**Status: Phase 1.2 ✅ complete**
 
 ---
 
