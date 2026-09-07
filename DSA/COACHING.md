@@ -201,7 +201,7 @@ Tries, DP 2D, Advanced Graphs, Intervals, Segment Trees, Math & Geometry
 |---|---|---|---|---|
 | 4 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | Two Pointers | Easy | ✅ Done (Sept 5) |
 | 5 | [Min Stack](https://leetcode.com/problems/min-stack/) | Stack | Medium | ✅ Done (Sept 5) |
-| 6 | [Two Sum II — Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | Two Pointers | Medium | 🔜 In progress (Sept 6) |
+| 6 | [Two Sum II — Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | Two Pointers | Medium | ✅ Done (Sept 7) |
 | 7 | [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | Stack | Medium | 🔜 In progress (Sept 6) |
 
 **Move Zeroes (Sept 5)** — committed as `solved(LeetCode): #283`
@@ -211,6 +211,11 @@ Tries, DP 2D, Advanced Graphs, Intervals, Segment Trees, Math & Geometry
 **Min Stack (Sept 5)** — committed as `solved(LeetCode): #155`
 - Two-stack design correct including duplicate handling (`<=` on push, match-check on pop) — the duplicate case is where most candidates fail
 - Coach notes: name the space tradeoff unprompted (`min_list` can be O(n); alternate = store `(value, current_min)` pairs, same worst case but one stack); `getMin` capitalization is LeetCode's, not yours — leave it
+
+**Two Sum II (Sept 7)** — committed as `solved(LeetCode): #167`
+- Converging two pointers correct on first paste; 1-indexed return handled (the common miss); `left < right` termination correct
+- Coach notes: stated the pointer-move mechanics but not the SAFETY INVARIANT — "numbers[left] is the smallest partner for numbers[right], so overshoot discards only provably-invalid pairs." That sentence is the difference between knowing a trick and knowing an algorithm. Variants (per-element binary search O(n log n), hash map O(n)/O(n)) not named until coached. Edge cases not restated pre-code — drill continues.
+- Interview line to memorize: the full answer in the review — invariant + why two-pointer dominates the binary-search variant (both ends move).
 
 ---
 

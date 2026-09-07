@@ -28,7 +28,7 @@ solve it cold, explain it clearly, and handle variations under interview pressur
 | Arrays and Hashing | 🟡 Developing | 4 problems (Contains Duplicate, Valid Anagram, Missing Number, Top K Frequent Elements) — all easy/medium, independent | Group Anagrams, Product of Array Except Self, Encode/Decode, Find Duplicate, Longest Consecutive not yet attempted |
 | Math and String | 🟡 Developing | 4 problems (Palindrome Number, Roman to Integer, Longest Common Prefix, Valid Palindrome) — all easy, independent | Not tested on medium/hard variants |
 | Bit Manipulation | 🟠 Familiar | 5 problems solved but concepts not internalized — XOR tricks and bitmasking patterns need re-learning from scratch | Cannot explain the underlying bit mechanics; needs redo before mediums |
-| Two Pointers | 🟡 Developing | 2 problems (Valid Palindrome Easy, Move Zeroes Easy) — both solved independently, O(n) write-pointer approach on second | Untested on sorted array variants (Two Sum II, 3Sum, Container With Most Water) |
+| Two Pointers | 🟡 Developing | 3 problems (Valid Palindrome Easy, Move Zeroes Easy, Two Sum II Medium) — Two Sum II correct on first paste, 1-indexing handled | Safety invariant not stated unprompted (how do you know you skipped no valid pair?); binary-search + hash-map variants not named until coached; 3Sum/Sort Colors/Container untested |
 | Sliding Window | 🟠 Familiar | 2 problems (Fruits Into Baskets, Maximum Erasure Value) but template not solid; needs redo | Cannot reliably identify window expand/shrink conditions; medium problems unreliable |
 | Stack | 🟠 Familiar | 2 problems (Valid Parentheses Easy independent, Min Stack Medium with hints) — two-stack pattern understood | Monotonic stack and harder variations (Daily Temperatures, Largest Rectangle) untested |
 | Binary Search | 🟠 Familiar | 1 easy (Binary Search) — textbook correct, all edge cases; clean implementation | Only the base case; rotated array, peak finding, and answer-space binary search untested |
@@ -100,7 +100,7 @@ solve it cold, explain it clearly, and handle variations under interview pressur
 
 - [x] Valid Palindrome
 - [x] Move Zeroes
-- [ ] Two Sum II - Input Array Is Sorted
+- [x] Two Sum II - Input Array Is Sorted
 - [ ] 3Sum
 - [ ] Sort Colors
 - [ ] Container With Most Water
