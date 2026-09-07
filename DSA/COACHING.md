@@ -28,9 +28,9 @@ Persistent record across all three tracks. Updated after every session.
 | Math and String | ✅ Partial | (covered well enough, not blocking) |
 | Bit Manipulation | 🔁 Needs redo | Problems solved but concepts need re-learning from scratch |
 | Sliding Window | 🔁 Needs redo | Best Time to Buy and Sell Stock, Max Vowels in Substring, Min Size Subarray Sum, Longest Substring Without Repeating Characters, Longest Repeating Character Replacement, Permutation in String, Min Window Substring, Sliding Window Maximum |
-| **Two Pointers** | ⬜ NOT STARTED | Valid Palindrome, Move Zeroes, Two Sum II, 3Sum, Sort Colors, Container With Most Water, Trapping Rain Water |
-| **Stack** | ⬜ NOT STARTED | Valid Parentheses, Decode String, Asteroid Collision, Min Stack, Evaluate Reverse Polish Notation, Generate Parentheses, Daily Temperatures, Car Fleet, Largest Rectangle in Histogram |
-| **Binary Search** | ⬜ NOT STARTED | Binary Search, Find Peak Element, Search a 2D Matrix, Koko Eating Bananas, Find Min in Rotated Sorted Array, Search in Rotated Sorted Array, Time Based Key-Value Store, Median of Two Sorted Arrays |
+| **Two Pointers** | ✅ Partial | 3Sum, Sort Colors, Container With Most Water, Trapping Rain Water |
+| **Stack** | ✅ Partial | Decode String, Asteroid Collision, Generate Parentheses, Daily Temperatures, Car Fleet, Largest Rectangle in Histogram |
+| **Binary Search** | ✅ Partial | Find Peak Element, Search a 2D Matrix, Koko Eating Bananas, Find Min in Rotated Sorted Array, Search in Rotated Sorted Array, Time Based Key-Value Store, Median of Two Sorted Arrays |
 
 ### Phase 2 — Core Data Structures
 
@@ -193,7 +193,7 @@ Tries, DP 2D, Advanced Graphs, Intervals, Segment Trees, Math & Geometry
 
 ---
 
-### Session 2 — 2026-09-05/06
+### Session 2 — 2026-09-05/07
 
 **Assigned challenges (Session 2):**
 
@@ -202,7 +202,7 @@ Tries, DP 2D, Advanced Graphs, Intervals, Segment Trees, Math & Geometry
 | 4 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | Two Pointers | Easy | ✅ Done (Sept 5) |
 | 5 | [Min Stack](https://leetcode.com/problems/min-stack/) | Stack | Medium | ✅ Done (Sept 5) |
 | 6 | [Two Sum II — Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | Two Pointers | Medium | ✅ Done (Sept 7) |
-| 7 | [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | Stack | Medium | 🔜 In progress (Sept 6) |
+| 7 | [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | Stack | Medium | ✅ Done (Sept 7) |
 
 **Move Zeroes (Sept 5)** — committed as `solved(LeetCode): #283`
 - Correct write-pointer + backfill approach, O(n)/O(1) stated upfront
@@ -216,6 +216,12 @@ Tries, DP 2D, Advanced Graphs, Intervals, Segment Trees, Math & Geometry
 - Converging two pointers correct on first paste; 1-indexed return handled (the common miss); `left < right` termination correct
 - Coach notes: stated the pointer-move mechanics but not the SAFETY INVARIANT — "numbers[left] is the smallest partner for numbers[right], so overshoot discards only provably-invalid pairs." That sentence is the difference between knowing a trick and knowing an algorithm. Variants (per-element binary search O(n log n), hash map O(n)/O(n)) not named until coached. Edge cases not restated pre-code — drill continues.
 - Interview line to memorize: the full answer in the review — invariant + why two-pointer dominates the binary-search variant (both ends move).
+
+**Evaluate Reverse Polish Notation (Sept 7)** — committed as `solved(LeetCode): #150`
+- Stack logic correct on first paste: pop order (`op1` = right operand) handled non-commutativity, `int(a/b)` truncate-toward-zero named in the plan *before* coding — the division trap avoided unprompted
+- Docstring drill (problem → plan → complexity) done unprompted for the first time; keep it
+- Coach notes v1: redundant `ans` accumulator duplicating stack state (two sources of truth); `range(len(tokens))` (3rd occurrence — scan before submit); `token not in "+-/*"` substring check works by accident → set/dict membership; if/elif operator chain → `ops` dict of lambdas (pattern owned since Valid Parentheses)
+- Interview line to memorize: "assumes valid RPN — in production I'd guard pops; `//` floors toward −∞ so I use `int(a/b)`; float is exact for 32-bit intermediates, otherwise abs-and-sign."
 
 ---
 
