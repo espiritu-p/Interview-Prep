@@ -33,6 +33,15 @@ in-memory state carries over — the coaching logs are the source of truth.
 5. **Generic changes apply to all topics.** Any structural update made to one track's files (COACHING.md, PLAN.md, READMEs, protocol sections) must be checked and mirrored across all three tracks — DSA, System Design, and AI Engineering — before committing.
 6. **Links always.** DSA assignments must include LeetCode URLs. SD and AI sessions must include pre-session references (verified links in each track's COACHING.md Pre-Session References section) so the user can read or watch before the quiz.
 
+### DSA Python warm-up drill
+1. **Every DSA session opens with 1–2 technical Python interview questions** drawn from
+   `DSA/Concepts/python-interview.md` (★/★★ tags = interview frequency; answer out loud, ≤30 s each).
+2. **Missed or shaky questions** go to the Python Drill Log in `DSA/COACHING.md` and re-enter
+   warm-up rotation until answered cold twice in a row.
+3. **Solution reviews feed the rotation.** When a review catches a Python-semantics bug
+   (aliasing, `in`-on-string, `//` truncation, iteration-during-mutation…), the matching
+   question enters the drill rotation immediately.
+
 ### DSA review rubric (apply to every submitted solution)
 1. **Correctness first** — loop bounds, off-by-one, edge cases (empty, single element, all-invalid input)
 2. **Python idiom** — snake_case vars, no redundant `else` after `return`, no parens on `while`/`if`
@@ -74,6 +83,7 @@ Full file list — check each one:
 | `DSA/Concepts/bit-manipulation.md` | Content only; no status to update |
 | `DSA/Concepts/greedy.md` | Content only; no status to update |
 | `DSA/Concepts/dynamic-programming.md` | Content only; no status to update |
+| `DSA/Concepts/python-interview.md` | Content only; misses tracked in `DSA/COACHING.md` Python Drill Log |
 | `DSA/Kattis/README.md` | Problem count and list |
 | `System-Design/PLAN.md` | Progress tracker session statuses |
 | `System-Design/COACHING.md` | Session log current |

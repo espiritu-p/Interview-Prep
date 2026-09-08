@@ -10,6 +10,7 @@ Concept notes with problem-grounded examples. Each file covers one paradigm: wha
 | [Dynamic Programming](./dynamic-programming.md) | Break into overlapping subproblems; cache results | Optimization over choices with repeated substructure |
 | [Greedy](./greedy.md) | Always take the locally best option | Optimization where local best = global best |
 | [Sliding Window](./sliding-window.md) | Two pointers defining a window that expands right and shrinks left | Longest/shortest contiguous subarray satisfying a constraint |
+| [Python Interview Questions](./python-interview.md) | Language semantics, built-in costs, closures, GIL — asked alongside DSA rounds | Warm-up drill at the start of every DSA session |
 
 ## How to read these
 

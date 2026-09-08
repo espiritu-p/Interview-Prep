@@ -85,6 +85,7 @@ Tries, DP 2D, Advanced Graphs, Intervals, Segment Trees, Math & Geometry
 **Rotation logic:**
 - DSA is daily — pattern recognition requires daily repetition
 - AI Engineering and System Design alternate: concept sessions on weekdays, mock/deep-dives on weekends
+- DSA block opens with 1–2 Python warm-up questions from [`Concepts/python-interview.md`](./Concepts/python-interview.md) (~5 min) — protocol in [`CLAUDE.md`](../CLAUDE.md) → DSA Python warm-up drill
 - Weekends: one longer System Design mock (~45 min) replaces the two concept sessions
 
 ---
@@ -158,6 +159,20 @@ Tries, DP 2D, Advanced Graphs, Intervals, Segment Trees, Math & Geometry
 ## DSA Review Rubric
 
 > Rubric lives in [`CLAUDE.md`](../CLAUDE.md) — DSA review rubric section.
+
+---
+
+## Python Interview Review
+
+Question bank: [`Concepts/python-interview.md`](./Concepts/python-interview.md) — ★/★★ mark interview frequency.
+1–2 questions open every DSA session; misses below, re-asked until cold twice in a row.
+
+### Python Drill Log
+
+| Date | Q# | Question | Result |
+|---|---|---|---|
+| 2026-09-08 | Q1.1 | `is` vs `==` | ⏳ asked — awaiting answer |
+| 2026-09-08 | Q2.1 | list/dict implementations + operation costs | ⏳ asked — awaiting answer |
 
 ---
 

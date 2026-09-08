@@ -48,7 +48,7 @@ Interview-Prep/
 │   │   └── <Topic>/             solutions grouped by topic
 │   ├── Kattis/
 │   │   └── <Type>/              solutions grouped by problem type
-│   └── Concepts/                paradigm notes with worked examples
+│   └── Concepts/                paradigm notes + Python interview question bank
 │
 ├── System-Design/
 │   ├── PLAN.md                  six-phase curriculum with session map
@@ -88,3 +88,4 @@ Detailed battle plans:
 | `SD: Phase X.Y` | Start a System Design concept session |
 | `SD: Case 6.X` | Start a mock design interview |
 | `AI: Phase X.Y` | Start an AI Engineering concept session |
+| `Python: quiz` | Run an extra Python warm-up drill from the question bank |
