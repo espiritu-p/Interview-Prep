@@ -1,6 +1,6 @@
 # Interview Prep — Master Coaching Log
 
-Persistent record across all three tracks. Updated after every session.  
+Persistent record across all five tracks. Updated after every session.
 **Goal: Interview-ready by October 1, 2026.**
 
 > Coaching protocol and session rules live in [`CLAUDE.md`](../CLAUDE.md) at the repo root.
@@ -15,6 +15,8 @@ Persistent record across all three tracks. Updated after every session.
 | DSA | LeetCode: 27 solved · Kattis: 144 solved |
 | System Design | SRE background in prod — strong ops instincts, needs interview framing |
 | AI Engineering | LangGraph/LangChain/MCP in prod, 2× NLP publications — needs conceptual depth |
+| React | New track added 2026-09-10 — needs structured frontend interview preparation |
+| Python | New track added 2026-09-10 — needs language semantics, async, NumPy, and pandas interview preparation |
 
 ---
 
@@ -72,19 +74,23 @@ Tries, DP 2D, Advanced Graphs, Intervals, Segment Trees, Math & Geometry
 
 ## Daily Schedule
 
-**Three tracks, one day.** Each track has a distinct activity type so they don't blur together.
+**Five tracks, one day.** Each track has a distinct activity type so they don't blur together.
 
 | Block | Track | Activity | Time |
 |-------|-------|----------|------|
 | Morning (before work or commute) | AI Engineering | Read one concept note or session | 20–30 min |
 | Evening block 1 | DSA | 1–2 LeetCode problems | 30–45 min |
 | Evening block 2 | System Design | One concept session OR a mock design | 30–45 min |
+| Evening block 3 | React | One concept session or implementation prompt | 20–30 min |
+| Evening block 4 | Python | Code-prediction drill or concept session | 20–30 min |
 
-**Total: ~90 min/day.** Sustainable alongside a full-time SRE role.
+**Total: ~130–150 min/day.** Sustainable alongside a full-time SRE role.
 
 **Rotation logic:**
 - DSA is daily — pattern recognition requires daily repetition
 - AI Engineering and System Design alternate: concept sessions on weekdays, mock/deep-dives on weekends
+- React uses short concept sessions and frontend implementation prompts
+- Python uses short code-prediction drills and async/data-library concepts
 - DSA block opens with 1–2 Python warm-up questions from [`Concepts/python-interview.md`](./Concepts/python-interview.md) (~5 min) — protocol in [`CLAUDE.md`](../CLAUDE.md) → DSA Python warm-up drill
 - Weekends: one longer System Design mock (~45 min) replaces the two concept sessions
 

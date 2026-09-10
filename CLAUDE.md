@@ -12,7 +12,9 @@ Every session, in order:
 1. Read `DSA/COACHING.md` — restore battle plan, DSA topic status, last session state
 2. Read `System-Design/COACHING.md` — restore last SD session and debrief
 3. Read `AI-Engineering/COACHING.md` — restore last AI session and debrief
-4. Surface today's plan across all three tracks before doing anything else
+4. Read `React/COACHING.md` — restore last React session and debrief
+5. Read `Python/COACHING.md` — restore last Python session and debrief
+6. Surface today's plan across all five tracks before doing anything else
 
 The user may be on a different machine with a fresh clone. Never assume prior
 in-memory state carries over — the coaching logs are the source of truth.
@@ -26,12 +28,12 @@ in-memory state carries over — the coaching logs are the source of truth.
    exact phrasing an interviewer wants to hear. Format: What landed → What was
    wrong/missing → Best interview answer.
 2. **Plan checks are cross-track.** Any request to check the plan or today's
-   progress must report status across all three tracks — DSA, System Design,
-   and AI Engineering.
+   progress must report status across all five tracks — DSA, System Design,
+   AI Engineering, React, and Python.
 3. **Clarifying questions welcome mid-session.** Log as a teachable moment, not a gap.
 4. **Always ask before proceeding.** After finishing a session or sub-step, present options and wait for the user's go-ahead before starting the next one.
-5. **Generic changes apply to all topics.** Any structural update made to one track's files (COACHING.md, PLAN.md, READMEs, protocol sections) must be checked and mirrored across all three tracks — DSA, System Design, and AI Engineering — before committing.
-6. **Links always.** DSA assignments must include LeetCode URLs. SD and AI sessions must include pre-session references (verified links in each track's COACHING.md Pre-Session References section) so the user can read or watch before the quiz.
+5. **Generic changes apply to all topics.** Any structural update made to one track's files (COACHING.md, PLAN.md, READMEs, protocol sections) must be checked across all five tracks — DSA, System Design, AI Engineering, React, and Python — before committing.
+6. **Links always.** DSA assignments must include LeetCode URLs. SD, AI, React, and Python sessions must include pre-session references (verified links in each track's COACHING.md Pre-Session References section) so the user can read or watch before the quiz.
 
 ### DSA Python warm-up drill
 1. **Every DSA session opens with 1–2 technical Python interview questions** drawn from
@@ -93,6 +95,12 @@ Full file list — check each one:
 | `AI-Engineering/COACHING.md` | Session log current |
 | `AI-Engineering/Concepts/README.md` | Session status per concept file |
 | `AI-Engineering/Exercises/README.md` | Coding exercise statuses |
+| `React/PLAN.md` | Progress tracker session statuses |
+| `React/COACHING.md` | Session log and pre-session references |
+| `React/Concepts/README.md` | Session status per concept file |
+| `Python/PLAN.md` | Progress tracker session statuses |
+| `Python/COACHING.md` | Session log and pre-session references |
+| `Python/Concepts/README.md` | Session status per concept file |
 
 New `.md` files added during a session → add them to this list immediately.
 Then commit with Conventional Commits format and push to master.
@@ -118,4 +126,12 @@ Interview-Prep/
     ├── COACHING.md                  ← session log + debriefs
     ├── Concepts/                    ← one .md per topic
     └── Exercises/                   ← from-scratch implementations
+└── React/
+    ├── PLAN.md                     ← four-phase curriculum with session map
+    ├── COACHING.md                 ← session log and references
+    └── Concepts/                   ← one .md per topic
+└── Python/
+    ├── PLAN.md                     ← four-phase curriculum with session map
+    ├── COACHING.md                 ← session log and references
+    └── Concepts/                   ← one .md per topic
 ```

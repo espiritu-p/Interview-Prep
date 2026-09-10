@@ -2,7 +2,7 @@
 
 # Interview Prep
 
-Python DSA practice + AI engineering + system design — working toward interview-ready by **October 1, 2026**.
+Python interview prep + DSA + AI engineering + system design + React — working toward interview-ready by **October 1, 2026**.
 
 [![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
 [![LeetCode](https://img.shields.io/badge/LeetCode-33%20Solved-FFA116?style=flat-square&logo=leetcode&logoColor=black)](https://leetcode.com/)
@@ -15,7 +15,7 @@ Python DSA practice + AI engineering + system design — working toward intervie
 
 ## Tracks
 
-Three parallel tracks, all targeting October 1.
+Five parallel tracks, all targeting October 1.
 
 ### DSA — Algorithms & Data Structures
 
@@ -34,6 +34,18 @@ Six-phase coaching program: foundations → storage → scalability → reliabil
 Seven-phase coaching program: LLM internals → RAG → agents → evals → fine-tuning → inference → safety. Each phase ends with a from-scratch coding exercise.
 
 → [`AI-Engineering/`](./AI-Engineering/) · Plan: [`AI-Engineering/PLAN.md`](./AI-Engineering/PLAN.md) · Log: [`AI-Engineering/COACHING.md`](./AI-Engineering/COACHING.md)
+
+### React
+
+Four-phase frontend interview preparation: React's rendering model → hooks and state → performance → production frontend architecture.
+
+→ [`React/`](./React/) · Plan: [`React/PLAN.md`](./React/PLAN.md) · Log: [`React/COACHING.md`](./React/COACHING.md)
+
+### Python
+
+Four-phase Python interview preparation: language semantics → async/concurrency → interview mechanics → NumPy/pandas.
+
+→ [`Python/`](./Python/) · Plan: [`Python/PLAN.md`](./Python/PLAN.md) · Log: [`Python/COACHING.md`](./Python/COACHING.md)
 
 ---
 
@@ -56,11 +68,21 @@ Interview-Prep/
 │   ├── Concepts/                one .md per topic, session-by-session
 │   └── Case-Studies/            full mock design write-ups
 │
-└── AI-Engineering/
+├── AI-Engineering/
     ├── PLAN.md                  seven-phase curriculum with session map
     ├── COACHING.md              session log and debrief notes
     ├── Concepts/                one .md per topic, session-by-session
     └── Exercises/               from-scratch implementations per phase
+
+└── React/
+    ├── PLAN.md                  four-phase curriculum with session map
+    ├── COACHING.md              session log and pre-session references
+    └── Concepts/                one .md per topic, session-by-session
+
+└── Python/
+    ├── PLAN.md                  four-phase curriculum with session map
+    ├── COACHING.md              session log and pre-session references
+    └── Concepts/                one .md per topic, session-by-session
 ```
 
 ---
@@ -72,11 +94,15 @@ Interview-Prep/
 | DSA | Phase 1–3 + DP 1D + Graphs intro | 🟡 In progress |
 | System Design | Phases 1–4 + 3 mock case studies | 🟡 In progress |
 | AI Engineering | Phases 1–4 (Internals → RAG → Agents → Evals) | 🟡 In progress |
+| React | Phases 1–4 (Core model → Hooks → Performance → Production) | ⬜ Not started |
+| Python | Phases 1–4 (Semantics → Async → Interview mechanics → NumPy/pandas) | ⬜ Not started |
 
 Detailed battle plans:
 - DSA: [`DSA/COACHING.md`](./DSA/COACHING.md)
 - System Design: [`System-Design/PLAN.md`](./System-Design/PLAN.md)
 - AI Engineering: [`AI-Engineering/PLAN.md`](./AI-Engineering/PLAN.md)
+- React: [`React/PLAN.md`](./React/PLAN.md)
+- Python: [`Python/PLAN.md`](./Python/PLAN.md)
 
 ---
 
@@ -88,4 +114,5 @@ Detailed battle plans:
 | `SD: Phase X.Y` | Start a System Design concept session |
 | `SD: Case 6.X` | Start a mock design interview |
 | `AI: Phase X.Y` | Start an AI Engineering concept session |
-| `Python: quiz` | Run an extra Python warm-up drill from the question bank |
+| `React: Phase X.Y` | Start a React concept session |
+| `Python: Phase X.Y` | Start a Python concept session |
