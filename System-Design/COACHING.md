@@ -27,16 +27,16 @@ Persistent record. Updated after every completed session.
 
 ## Pre-Session References
 
-Read before each session. The concept walkthrough assumes you've seen the material once — links verified 2026-09-06; paywalled Medium links replaced 2026-09-11.
+Read/watch before each session — the walkthrough assumes one pass through the material. Video is primary (visual learning preference); articles supplement. Links verified 2026-09-11.
 
 | Session | Read |
 |---------|------|
 | 1.1 — Scale of numbers | [Colin Scott — Interactive latency numbers](https://colin-scott.github.io/personal_website/research/interactive_latency.html) · [Sam Watt — Numbers everyone should know](https://samwho.dev/numbers/) |
 | 1.2 — APIs | [gRPC — What is gRPC](https://grpc.io/docs/what-is-grpc/introduction/) · [GraphQL — Learn](https://graphql.org/learn/) · [MDN — HTTP request methods](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Methods) |
-| 1.3 — DNS + LB | [ByteByteGo — How DNS lookup works](https://bytebytego.com/guides/how-does-the-domain-name-system-dns-lookup-work/) · [Cloudflare — What is load balancing](https://www.cloudflare.com/learning/performance/what-is-load-balancing/) · [F5/NGINX — Load balancing glossary](https://www.f5.com/glossary/load-balancer) (algorithms + L4/L7) · [Cloudflare — What is DNS](https://www.cloudflare.com/learning/dns/) |
+| 1.3 — DNS + LB | 🎥 [ByteByteGo — DNS Crash Course](https://www.youtube.com/watch?v=27r4Bzuj5NQ) (5:45) · 🎥 [Monis Yousuf — Load Balancers & Algorithms](https://www.youtube.com/watch?v=wsjQnRk0eEc) (12:45; static/dynamic algos, sticky sessions) · [Cloudflare — What is load balancing](https://www.cloudflare.com/learning/performance/what-is-load-balancing/) · [ByteByteGo — How DNS lookup works](https://bytebytego.com/guides/how-does-the-domain-name-system-dns-lookup-work/) |
 | 1.4 — CDN | [ByteByteGo — How does a CDN work](https://blog.bytebytego.com/p/how-does-cdn-work) · [Cloudflare — What is a CDN](https://www.cloudflare.com/learning/cdn/what-is-a-cdn/) |
 | 1.5 — Proxies + gateways | [AWS — What is an API gateway](https://aws.amazon.com/api-gateway/) · [MDN — Proxy (glossary)](https://developer.mozilla.org/en-US/docs/Glossary/Proxy) · [Cloudflare — What is a load balancer](https://www.cloudflare.com/learning/performance/what-is-load-balancing/) |
-| 1.6 — Consistent hashing | [Wikipedia — Consistent hashing](https://en.wikipedia.org/wiki/Consistent_hashing) · [High Scalability](https://highscalability.com/) |
+| 1.6 — Consistent hashing | 🎥 [Gaurav Sen — Consistent Hashing](https://www.youtube.com/watch?v=K0Ta65OqQkY) (13:50; why mod-N hashing collapses, ring walkthrough) · [Wikipedia — Consistent hashing](https://en.wikipedia.org/wiki/Consistent_hashing) · [High Scalability](https://highscalability.com/) |
 
 **Week 1 drill:** map every pattern to its cloud service names as you go — LB → AWS ALB/NLB → Azure App Gateway/Front Door; DNS → Route53 → Azure DNS. Gap noted at baseline.
 

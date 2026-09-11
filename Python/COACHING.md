@@ -16,7 +16,7 @@ working fluency with NumPy and pandas interview patterns.
 
 ## Pre-Session References
 
-Read before each session. Links point to official documentation.
+Read before each session. Links point to official documentation. Video-first per standing rule: for each session, a verified YouTube explainer will be added to this table before it starts (docs stay as the authoritative follow-up).
 
 | Session | Read |
 |---------|------|

@@ -34,6 +34,12 @@ in-memory state carries over — the coaching logs are the source of truth.
 4. **Always ask before proceeding.** After finishing a session or sub-step, present options and wait for the user's go-ahead before starting the next one.
 5. **Generic changes apply to all topics.** Any structural update made to one track's files (COACHING.md, PLAN.md, READMEs, protocol sections) must be checked across all five tracks — DSA, System Design, AI Engineering, React, and Python — before committing.
 6. **Links always.** DSA assignments must include LeetCode URLs. SD, AI, React, and Python sessions must include pre-session references (verified links in each track's COACHING.md Pre-Session References section) so the user can read or watch before the quiz.
+7. **Visual learning preferred.** When assembling pre-session references (and when
+   quizzing/reviewing), lead with video — YouTube explainers and animations over text
+   articles wherever a quality video exists; articles become the supplement, not the
+   primary. Prefer animated/systems channels (ByteByteGo, 3Blue1Brown, Gaurav Sen,
+   StatQuest) with verified URLs. Avoid Medium links (paywalled). Note watch time
+   alongside each link so sessions stay time-boxed.
 
 ### DSA Python warm-up drill
 1. **Every DSA session opens with 1–2 technical Python interview questions** drawn from

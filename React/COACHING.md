@@ -13,7 +13,7 @@ performance, and production frontend architecture.
 
 ## Pre-Session References
 
-Read before each session. Links point to the official React documentation.
+Read before each session. Links point to the official React documentation. Video-first per standing rule: for each session, a verified YouTube explainer will be added to this table before it starts (react.dev stays as the authoritative follow-up).
 
 | Session | Read |
 |---------|------|
