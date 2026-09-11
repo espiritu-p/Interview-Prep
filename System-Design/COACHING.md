@@ -91,4 +91,26 @@ Read/watch before each session — the walkthrough assumes one pass through the 
 
 ---
 
+### Session 3 — 2026-09-11 — Phase 1.3: DNS + Load Balancing ✅ Complete (after re-drill)
+
+**Format:** 3-question quiz (full resolution path, LB algorithm choice, LB SPOF rebuttal) + re-drill round on missed halves
+
+**What landed:**
+- Resolution hierarchy order correct on first pass; referrals-vs-answers, .com TLD, recursive resolver named correctly on re-drill
+- Weighted least-connections called for the load skew unprompted, with a genuine ops caveat on resource-based (metrics must be accurate/fresh)
+- SRE reliability instinct on Q3: active/passive LB + cross-region — and cloud mapping drill PASSED (ALB/NLB, Azure LB, Route 53, Traffic Manager named on re-drill)
+
+**Gaps found (first pass → resolved on re-drill unless noted):**
+- `.example.com` called the TLD (it's `.com`) — corrected
+- Stopped at the IP; question ended at first byte (TCP → TLS → HTTP → CDN/LB) — closer still needs rep until automatic
+- Q2: named one problem not two (missed session-affinity as distinct from load skew); skipped the "make the LB change unnecessary" half
+- Redis teachable moment: thought Redis was an AWS service → explained (open-source in-memory KV store; ElastiCache/Cache for Redis are the managed wrappers); stateless-servers-vs-externalized-state distinction taught (signed cookie = claim check, session object in Redis → servers disposable → deploys safe) — solid after explanation
+- Q3 residual risk never named unprompted: DNS failover bounded by TTL + connection draining
+
+**Best-answer patterns to recite:** full path closer ("TCP → TLS → HTTP GET, and that IP is a CDN edge or LB, not one machine"); stickiness rebuttal ("it pins clients to servers and turns every scale-in or crash into lost sessions — statelessness deletes the requirement")
+
+**Status: Phase 1.3 ✅ complete** — carry to 1.4: answer every part of the question; count the sub-questions aloud before speaking.
+
+---
+
 > Coaching protocol and session rules live in [`CLAUDE.md`](../CLAUDE.md) at the repo root.
