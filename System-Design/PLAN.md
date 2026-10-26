@@ -1,6 +1,6 @@
 # System Design Interview Plan
 
-Target: interview-ready by **October 1, 2026**  
+⏸ **Paused 2026-10-26** — DSA backlog runs solo until **Nov 15**; original Oct 1 target lapsed, resume date set when DSA clears.
 Background: SRE @ P&G (3,000+ servers, Prometheus/Grafana/Splunk, Puppet, Kubernetes), Samsung (cloud orchestration UI, telecom CNF/VNF topology)
 
 ---

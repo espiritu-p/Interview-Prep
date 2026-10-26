@@ -15,7 +15,7 @@ Python interview prep + DSA + AI engineering + system design + React — working
 
 ## Tracks
 
-Five parallel tracks, all targeting October 1.
+Five parallel tracks — **DSA active solo until Nov 15** (backlog reset 2026-10-26); other four tracks paused until the DSA backlog clears.
 
 ### DSA — Algorithms & Data Structures
 
@@ -87,15 +87,17 @@ Interview-Prep/
 
 ---
 
-## October Goals
+## Track Status — Oct 26 Reset
 
-| Track | Phases to complete by Oct 1 | Status |
-|-------|-----------------------------|--------|
-| DSA | Phase 1–3 + DP 1D + Graphs intro (backlog reset: Nov 15) | 🟡 In progress |
-| System Design | Phases 1–4 + 3 mock case studies | 🟡 In progress |
-| AI Engineering | Phases 1–4 (Internals → RAG → Agents → Evals) | 🟡 In progress |
-| React | Phases 1–4 (Core model → Hooks → Performance → Production) | ⬜ Not started |
-| Python | Phases 1–4 (Semantics → Async → Interview mechanics → NumPy/pandas) | ⬜ Not started |
+DSA runs alone until **Nov 15** ([Backlog Plan](./DSA/COACHING.md)); the other tracks resume after the backlog clears, then get re-dated.
+
+| Track | Scope | Status |
+|-------|-------|--------|
+| DSA | 48-problem September backlog, re-dated Oct 26 → Nov 15 | 🟡 Resumed Oct 26 |
+| System Design | Phases 1–4 + 3 mock case studies | ⏸ Paused — 1.1–1.3 complete |
+| AI Engineering | Phases 1–4 + per-phase exercises | ⏸ Paused — 1.1–1.2 complete; `attention_from_scratch.py` in progress since Sept 7 |
+| React | Phases 1–4 | ⏸ Paused — not started |
+| Python | Phases 1–4 + DSA warm-up drills | ⏸ Paused — Q1.1/Q2.1 pending in drill log |
 
 Detailed battle plans:
 - DSA: [`DSA/COACHING.md`](./DSA/COACHING.md)

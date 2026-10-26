@@ -1,6 +1,6 @@
 # AI Engineering Interview Plan
 
-Target: interview-ready by **October 1, 2026**  
+⏸ **Paused 2026-10-26** — DSA backlog runs solo until **Nov 15**; original Oct 1 target lapsed, resume date set when DSA clears. Exception: finish [`attention_from_scratch.py`](./Exercises/attention_from_scratch.py) opportunistically — it's been scaffolded since Sept 7.
 Background: SRE @ P&G, LangGraph/LangChain in prod, two NLP publications, MS CS (3.9 GPA)
 
 ---

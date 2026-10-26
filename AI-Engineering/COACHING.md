@@ -20,7 +20,7 @@ Persistent record for cross-session coaching. Updated after every completed sess
 - NLP research background (sequence modeling, low-resource settings)
 - SRE observability — can instrument and measure AI systems in prod
 
-**Gaps to close before October:**
+**Gaps to close (track paused 2026-10-26 — resume after Nov 15):**
 - LLM internals (attention, KV cache, scaling laws) — from-scratch explanation
 - RAG pipeline design — chunking, reranking, hybrid search
 - Eval methodology — metrics, LLM-as-judge, RAGAS

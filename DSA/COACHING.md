@@ -57,8 +57,8 @@ Persistent record across all five tracks. Updated after every session.
 |---|---|---|
 | Greedy | ✅ Partial | Maximum Subarray, Jump Game, Jump Game II, Gas Station, Hand of Straights, Merge Triplets to Form Target Triplet, Partition Labels, Valid Parenthesis String, Non-overlapping Intervals, Min Arrows to Burst Balloons |
 | DP 1D | ⬜ NOT STARTED | Climbing Stairs, Min Cost Climbing Stairs, House Robber, House Robber II, Longest Palindromic Substring, Palindromic Substrings, Decode Ways, Coin Change, Maximum Product Subarray, Word Break, Longest Increasing Subsequence, Partition Equal Subset Sum |
-| DP 2D | ⬜ Barely started | (skipped until October — not worth the time) |
-| Intervals | ⬜ NOT STARTED | (skipped until October — not worth the time) |
+| DP 2D | ⬜ Barely started | (cut until after Nov 15 — not worth the time) |
+| Intervals | ⬜ NOT STARTED | (cut until after Nov 15 — not worth the time) |
 
 ### Phase 5 — Advanced
 
@@ -67,12 +67,14 @@ Persistent record across all five tracks. Updated after every session.
 | Segment Tree / Sorted Container | 🔁 Needs redo |
 | Math and Geometry | ⬜ NOT STARTED |
 
-Topics skipped intentionally (not worth the time before October):  
+Topics skipped intentionally (not worth the time before Nov 15):
 Tries, DP 2D, Advanced Graphs, Intervals, Segment Trees, Math & Geometry
 
 ---
 
 ## Daily Schedule
+> **Paused 2026-10-26:** only the DSA block runs while the backlog plan clears — the other four blocks are paused, restore after Nov 15 (see Backlog Plan below).
+
 
 **Five tracks, one day.** Each track has a distinct activity type so they don't blur together.
 
@@ -282,6 +284,24 @@ Question bank: [`Concepts/python-interview.md`](./Concepts/python-interview.md) 
 - Docstring drill (problem → plan → complexity) done unprompted for the first time; keep it
 - Coach notes v1: redundant `ans` accumulator duplicating stack state (two sources of truth); `range(len(tokens))` (3rd occurrence — scan before submit); `token not in "+-/*"` substring check works by accident → set/dict membership; if/elif operator chain → `ops` dict of lambdas (pattern owned since Valid Parentheses)
 - Interview line to memorize: "assumes valid RPN — in production I'd guard pops; `//` floors toward −∞ so I use `int(a/b)`; float is exact for 32-bit intermediates, otherwise abs-and-sign."
+
+---
+
+### Session 3 — 2026-10-26 (restart after 7-week pause)
+
+**Context:** Repo dormant since Sept 11 last commit; Sept 8–Oct 25 gap. Resumed under the
+Backlog Plan above (Oct 26 → Nov 15) — DSA only; SD/AI/React/Python paused pending
+restart. Replans across machines were reconciled: the Nov 15 DSA-only schedule is master.
+
+**Assigned challenges (Session 3):**
+
+| # | Problem | Topic | Difficulty | Status |
+|---|---|---|---|---|
+| 8 | [3Sum](https://leetcode.com/problems/3sum/) | Two Pointers | Medium | 🔄 Due today |
+| 9 | [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) | Stack (monotonic) | Medium | 🔄 Due today |
+| — | Warm-up: Q1.1 (`is` vs `==`) + Q2.1 (list/dict costs) — unanswered since Sept 8 | Python drill | — | 🔄 Due today |
+
+**Carried, not assigned this window:** [`attention_from_scratch.py`](../AI-Engineering/Exercises/attention_from_scratch.py) (scaffolded Sept 7, tests + STEP NOTES open) — finish opportunistically; `SD: Phase 1.4` CDN quiz queued for track restart.
 
 ---
 

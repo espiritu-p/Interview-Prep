@@ -17,7 +17,7 @@ solve it cold, explain it clearly, and handle variations under interview pressur
 | 🔵 | **Advanced** | Solving easy + medium + hard problems; know all major variations; arrive at optimal solutions; can teach it |
 | ⭐ | **Mastered** | Solve any problem in this topic cold under interview conditions; explain from first principles; no hints needed; discuss tradeoffs fluently |
 
-**Target: ⭐ Mastered across all topics before October 1.** Backlog reset: all planned problems solved by **November 15, 2026** ([plan](../COACHING.md)).
+**Backlog reset: all planned problems solved by November 15, 2026** ([plan](../COACHING.md)) — target grade for this window is 🟢 Proficient on every topic in the plan; ⭐ across all topics is the long-run bar, not this window's.
 
 ---
 

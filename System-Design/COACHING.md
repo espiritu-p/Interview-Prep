@@ -17,7 +17,7 @@ Persistent record. Updated after every completed session.
 - Deployment discipline: 97% change success rate over 3,000+ servers
 - Containerized workloads: Kubernetes, Jenkins
 
-**Gaps to close before October:**
+**Gaps to close (track paused 2026-10-26 — resume after Nov 15):**
 - Database internals at interview depth (replication, sharding, CAP)
 - Message queue / event streaming patterns (Kafka internals, saga pattern)
 - AWS service landscape (background is Azure/Kubernetes-heavy)
