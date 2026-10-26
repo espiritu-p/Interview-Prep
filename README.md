@@ -83,6 +83,8 @@ Interview-Prep/
     ├── PLAN.md                  four-phase curriculum with session map
     ├── COACHING.md              session log and pre-session references
     └── Concepts/                one .md per topic, session-by-session
+
+└── CS-ROADMAP.md              ← roadmap.sh CS fundamentals crosswalk + resume backlog
 ```
 
 ---
@@ -105,6 +107,7 @@ Detailed battle plans:
 - AI Engineering: [`AI-Engineering/PLAN.md`](./AI-Engineering/PLAN.md)
 - React: [`React/PLAN.md`](./React/PLAN.md)
 - Python: [`Python/PLAN.md`](./Python/PLAN.md)
+- CS fundamentals: [`CS-ROADMAP.md`](./CS-ROADMAP.md)
 
 ---
 

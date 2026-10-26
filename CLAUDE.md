@@ -107,6 +107,7 @@ Full file list — check each one:
 | `Python/PLAN.md` | Progress tracker session statuses |
 | `Python/COACHING.md` | Session log and pre-session references |
 | `Python/Concepts/README.md` | Session status per concept file |
+| `CS-ROADMAP.md` | roadmap.sh CS crosswalk — coverage grades current; resume-window backlog updated whenever a crosswalk gap gets scheduled |
 
 New `.md` files added during a session → add them to this list immediately.
 Then commit with Conventional Commits format and push to master.
@@ -118,6 +119,7 @@ Then commit with Conventional Commits format and push to master.
 ```
 Interview-Prep/
 ├── CLAUDE.md                        ← you are here
+├── CS-ROADMAP.md                   ← roadmap.sh CS crosswalk + resume-window backlog
 ├── README.md                        ← public-facing progress
 ├── DSA/
 │   ├── COACHING.md                  ← session log + battle plan + baseline
