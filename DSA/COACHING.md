@@ -1,7 +1,7 @@
 # Interview Prep — Master Coaching Log
 
 Persistent record across all five tracks. Updated after every session.
-**Goal: Interview-ready by October 1, 2026.**
+**Goal: Interview-ready by October 1, 2026.** → **DSA reset: backlog cleared by November 15, 2026** (paused Sept 8 – Oct 25).
 
 > Coaching protocol and session rules live in [`CLAUDE.md`](../CLAUDE.md) at the repo root.
 
@@ -96,7 +96,46 @@ Tries, DP 2D, Advanced Graphs, Intervals, Segment Trees, Math & Geometry
 
 ---
 
-## September Battle Plan
+## Backlog Plan — Oct 26 → Nov 15
+
+Resumed 2026-10-26 after a 7-week pause. All 48 unsolved September DSA problems, re-dated.
+Other tracks paused — DSA only until further notice.
+
+**Daily practice (every day, ~45–60 min):**
+1. Python warm-up — 1–2 questions from [`Concepts/python-interview.md`](./Concepts/python-interview.md), out loud, ≤30 s each (drill log misses first)
+2. Assigned problems — talk-aloud docstring before coding: restate + edge cases → plan → complexity → variant
+3. Pre-submit scan — no `print`, no `range(len(`, no parens on `while`/`if`
+4. Paste → review → revise → commit (`solved(LeetCode): #N ...`)
+
+Missed day → roll forward and absorb into the next 3-problem easy day; Nov 15 is the buffer.
+
+| Day | Topic | Problems | Status |
+|-----|-------|----------|--------|
+| Oct 26 | Two Pointers · Stack | [3Sum](https://leetcode.com/problems/3sum/) · [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) | ⏳ |
+| Oct 27 | Two Pointers · Stack | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) · [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | |
+| Oct 28 | Binary Search | [Find Min in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) · [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | |
+| Oct 29 | Binary Search · Sliding Window | [Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/) · [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | |
+| Oct 30 | Sliding Window | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) · [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/) | |
+| Oct 31 | Sliding Window · Hashing | [Permutation in String](https://leetcode.com/problems/permutation-in-string/) · [Two Sum](https://leetcode.com/problems/two-sum/) · [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | |
+| Nov 1 | Hashing | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) · [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | |
+| Nov 2 | Linked List | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) · [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) · [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | |
+| Nov 3 | Linked List | [Reorder List](https://leetcode.com/problems/reorder-list/) · [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | |
+| Nov 4 | Trees | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) · [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) · [Same Tree](https://leetcode.com/problems/same-tree/) | |
+| Nov 5 | Trees | [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) · [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | |
+| Nov 6 | Trees | [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/) · [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | |
+| Nov 7 | Trees | [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) · [Lowest Common Ancestor of a BST](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) · [Count Good Nodes in Binary Tree](https://leetcode.com/problems/count-good-nodes-in-binary-tree/) | |
+| Nov 8 | Heap | [Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/) · [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/) · [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) | |
+| Nov 9 | DP 1D | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) · [House Robber](https://leetcode.com/problems/house-robber/) · [House Robber II](https://leetcode.com/problems/house-robber-ii/) | |
+| Nov 10 | DP 1D | [Coin Change](https://leetcode.com/problems/coin-change/) · [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) | |
+| Nov 11 | DP 1D · Bits | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) · [Single Number](https://leetcode.com/problems/single-number/) · [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) | |
+| Nov 12 | Graphs · Bits | [Number of Islands](https://leetcode.com/problems/number-of-islands/) · [Max Area of Island](https://leetcode.com/problems/max-area-of-island/) · [Power of Two](https://leetcode.com/problems/power-of-two/) | |
+| Nov 13 | Graphs | [Clone Graph](https://leetcode.com/problems/clone-graph/) · [Rotting Oranges](https://leetcode.com/problems/rotting-oranges/) | |
+| Nov 14 | Greedy | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) · [Jump Game](https://leetcode.com/problems/jump-game/) | |
+| Nov 15 | Buffer | Catch-up + redo weakest 2 problems cold | |
+
+---
+
+## September Battle Plan (superseded — DSA backlog moved to plan above)
 
 **27 days. Target: DSA Phases 1–3 + DP 1D + Graphs · SD Phases 1–4 · AI Phases 1–3**
 

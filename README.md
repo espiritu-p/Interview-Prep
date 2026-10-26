@@ -2,7 +2,7 @@
 
 # Interview Prep
 
-Python interview prep + DSA + AI engineering + system design + React — working toward interview-ready by **October 1, 2026**.
+Python interview prep + DSA + AI engineering + system design + React — working toward interview-ready by **October 1, 2026** — DSA backlog reset to **November 15, 2026**.
 
 [![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
 [![LeetCode](https://img.shields.io/badge/LeetCode-33%20Solved-FFA116?style=flat-square&logo=leetcode&logoColor=black)](https://leetcode.com/)
@@ -91,7 +91,7 @@ Interview-Prep/
 
 | Track | Phases to complete by Oct 1 | Status |
 |-------|-----------------------------|--------|
-| DSA | Phase 1–3 + DP 1D + Graphs intro | 🟡 In progress |
+| DSA | Phase 1–3 + DP 1D + Graphs intro (backlog reset: Nov 15) | 🟡 In progress |
 | System Design | Phases 1–4 + 3 mock case studies | 🟡 In progress |
 | AI Engineering | Phases 1–4 (Internals → RAG → Agents → Evals) | 🟡 In progress |
 | React | Phases 1–4 (Core model → Hooks → Performance → Production) | ⬜ Not started |
