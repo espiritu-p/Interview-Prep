@@ -1,6 +1,6 @@
 # LeetCode Solutions
 
-32 problems solved, organized by topic. Each file has inline comments explaining the approach and any tricky edge cases.
+33 problems solved, organized by topic. Each file has inline comments explaining the approach and any tricky edge cases.
 
 ---
 
@@ -16,7 +16,7 @@
 | [Sliding Window](./Sliding%20Window/) | 2 | Variable/fixed window over array |
 | [Stack](./Stack/) | 2 | LIFO matching and monotonic stacks |
 | [Tree and Graph](./Tree%20and%20Graph/) | 1 | DFS on trees |
-| [Two Pointers](./Two%20Pointers/) | 2 | In-place pointer manipulation |
+| [Two Pointers](./Two%20Pointers/) | 3 | In-place pointer manipulation and sorted two-pointer scans |
 | [Advanced](./Advanced/) | 2 | Segment tree, sorted containers |
 ---
 
@@ -89,6 +89,7 @@
 
 | # | Problem | Difficulty |
 |---|---------|-----------| 
+| 15 | [3Sum](https://leetcode.com/problems/3sum/) | Medium |
 | 125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | Easy |
 | 283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | Easy |
 

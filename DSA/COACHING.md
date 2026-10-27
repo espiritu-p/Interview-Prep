@@ -30,7 +30,7 @@ Persistent record across all five tracks. Updated after every session.
 | Math and String | ✅ Partial | (covered well enough, not blocking) |
 | Bit Manipulation | 🔁 Needs redo | Problems solved but concepts need re-learning from scratch |
 | Sliding Window | 🔁 Needs redo | Best Time to Buy and Sell Stock, Max Vowels in Substring, Min Size Subarray Sum, Longest Substring Without Repeating Characters, Longest Repeating Character Replacement, Permutation in String, Min Window Substring, Sliding Window Maximum |
-| **Two Pointers** | ✅ Partial | 3Sum, Sort Colors, Container With Most Water, Trapping Rain Water |
+| **Two Pointers** | ✅ Partial | Sort Colors, Container With Most Water, Trapping Rain Water |
 | **Stack** | ✅ Partial | Decode String, Asteroid Collision, Generate Parentheses, Daily Temperatures, Car Fleet, Largest Rectangle in Histogram |
 | **Binary Search** | ✅ Partial | Find Peak Element, Search a 2D Matrix, Koko Eating Bananas, Find Min in Rotated Sorted Array, Search in Rotated Sorted Array, Time Based Key-Value Store, Median of Two Sorted Arrays |
 
@@ -113,8 +113,8 @@ Missed day → roll forward and absorb into the next 3-problem easy day; Nov 15 
 
 | Day | Topic | Problems | Status |
 |-----|-------|----------|--------|
-| Oct 26 | Two Pointers · Stack | [3Sum](https://leetcode.com/problems/3sum/) · [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) | ⏳ |
-| Oct 27 | Two Pointers · Stack | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) · [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | |
+| Oct 26 | Two Pointers · Stack | [3Sum](https://leetcode.com/problems/3sum/) · [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) | 3Sum ✅ Oct 27; Daily Temperatures rolled forward |
+| Oct 27 | Two Pointers · Stack | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) · [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) + rolled [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) | 🔄 In progress; 3Sum completed |
 | Oct 28 | Binary Search | [Find Min in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) · [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | |
 | Oct 29 | Binary Search · Sliding Window | [Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/) · [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | |
 | Oct 30 | Sliding Window | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) · [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/) | |
@@ -297,9 +297,15 @@ restart. Replans across machines were reconciled: the Nov 15 DSA-only schedule i
 
 | # | Problem | Topic | Difficulty | Status |
 |---|---|---|---|---|
-| 8 | [3Sum](https://leetcode.com/problems/3sum/) | Two Pointers | Medium | 🔄 Due today |
-| 9 | [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) | Stack (monotonic) | Medium | 🔄 Due today |
-| — | Warm-up: Q1.1 (`is` vs `==`) + Q2.1 (list/dict costs) — unanswered since Sept 8 | Python drill | — | 🔄 Due today |
+| 8 | [3Sum](https://leetcode.com/problems/3sum/) | Two Pointers | Medium | ✅ Solved Oct 27 (with coaching) |
+| 9 | [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) | Stack (monotonic) | Medium | 🔄 Rolled to Oct 27 |
+| — | Warm-up: Q1.1 (`is` vs `==`) + Q2.1 (list/dict costs) — unanswered since Sept 8 | Python drill | — | 🔄 Pending |
+
+**3Sum review — completed 2026-10-27 (accepted, 769 ms; with coaching):**
+- Replaced the offset-index brute force, which reused an index and produced the false triplet `[-2, 1, 1]` for `[3, -2, 1, 0]`, with sorting + anchor + two pointers.
+- Final solution is O(n²); skips duplicate anchors and duplicate pointer values after a match, avoiding a linear scan of prior answers.
+- Pointer direction and duplicate-value handling needed hints; `PROGRESS.md` records 3Sum as solution-checked / needed hints, not independently mastered.
+
 
 **Carried, not assigned this window:** [`attention_from_scratch.py`](../AI-Engineering/Exercises/attention_from_scratch.py) (scaffolded Sept 7, tests + STEP NOTES open) — finish opportunistically; `SD: Phase 1.4` CDN quiz queued for track restart.
 
