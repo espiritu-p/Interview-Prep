@@ -1,6 +1,6 @@
 # LeetCode Solutions
 
-33 problems solved, organized by topic. Each file has inline comments explaining the approach and any tricky edge cases.
+33 solution files tracked, organized by topic. Each file has inline comments explaining the approach and any tricky edge cases.
 
 ---
 
@@ -14,9 +14,9 @@
 | [Hashing](./Hashing/) | 4 | Frequency maps, existence checks |
 | [Math and String](./Math%20and%20String/) | 4 | Arithmetic, string parsing |
 | [Sliding Window](./Sliding%20Window/) | 2 | Variable/fixed window over array |
-| [Stack](./Stack/) | 2 | LIFO matching and monotonic stacks |
+| [Stack](./Stack/) | 3 | LIFO matching and monotonic stacks |
 | [Tree and Graph](./Tree%20and%20Graph/) | 1 | DFS on trees |
-| [Two Pointers](./Two%20Pointers/) | 3 | In-place pointer manipulation and sorted two-pointer scans |
+| [Two Pointers](./Two%20Pointers/) | 4 | In-place pointer manipulation and sorted two-pointer scans |
 | [Advanced](./Advanced/) | 2 | Segment tree, sorted containers |
 ---
 
@@ -83,12 +83,14 @@
 | # | Problem | Difficulty |
 |---|---------|-----------|
 | 20 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | Easy |
+| 150 | [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | Medium |
 | 155 | [Min Stack](https://leetcode.com/problems/min-stack/) | Medium |
 
 ## Two Pointers
 
 | # | Problem | Difficulty |
 |---|---------|-----------| 
+| 11 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | Medium |
 | 15 | [3Sum](https://leetcode.com/problems/3sum/) | Medium |
 | 125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | Easy |
 | 283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | Easy |

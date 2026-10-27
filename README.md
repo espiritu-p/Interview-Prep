@@ -95,7 +95,7 @@ DSA runs alone until **Nov 15** ([Backlog Plan](./DSA/COACHING.md)); the other t
 
 | Track | Scope | Status |
 |-------|-------|--------|
-| DSA | 48-problem September backlog, re-dated Oct 26 → Nov 15 (3Sum completed; 47 remain) | 🟡 Active — 3Sum accepted Oct 27 |
+| DSA | 48-problem September backlog, re-dated Oct 26 → Nov 15 (3Sum and Container With Most Water completed; 46 remain) | 🟡 Active — 3Sum accepted Oct 27; Container With Most Water solution checked Oct 27 with coaching |
 | System Design | Phases 1–4 + 3 mock case studies | ⏸ Paused — 1.1–1.3 complete |
 | AI Engineering | Phases 1–4 + per-phase exercises | ⏸ Paused — 1.1–1.2 complete; `attention_from_scratch.py` in progress since Sept 7 |
 | React | Phases 1–4 | ⏸ Paused — not started |

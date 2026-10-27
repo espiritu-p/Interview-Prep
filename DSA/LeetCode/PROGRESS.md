@@ -28,7 +28,7 @@ solve it cold, explain it clearly, and handle variations under interview pressur
 | Arrays and Hashing | 🟡 Developing | 4 problems (Contains Duplicate, Valid Anagram, Missing Number, Top K Frequent Elements) — all easy/medium, independent | Group Anagrams, Product of Array Except Self, Encode/Decode, Find Duplicate, Longest Consecutive not yet attempted |
 | Math and String | 🟡 Developing | 4 problems (Palindrome Number, Roman to Integer, Longest Common Prefix, Valid Palindrome) — all easy, independent | Not tested on medium/hard variants |
 | Bit Manipulation | 🟠 Familiar | 5 problems solved but concepts not internalized — XOR tricks and bitmasking patterns need re-learning from scratch | Cannot explain the underlying bit mechanics; needs redo before mediums |
-| Two Pointers | 🟡 Developing | 4 problems (Valid Palindrome Easy, Move Zeroes Easy, Two Sum II Medium, 3Sum Medium accepted after coaching) | 3Sum pointer invariant and duplicate handling needed hints; Sort Colors, Container With Most Water, and Trapping Rain Water remain untested |
+| Two Pointers | 🟡 Developing | 5 problems (Valid Palindrome Easy, Move Zeroes Easy, Two Sum II Medium, 3Sum Medium, Container With Most Water Medium) | 3Sum duplicate handling and Container With Most Water pointer invariant needed coaching; Sort Colors and Trapping Rain Water remain untested |
 | Sliding Window | 🟠 Familiar | 2 problems (Fruits Into Baskets, Maximum Erasure Value) but template not solid; needs redo | Cannot reliably identify window expand/shrink conditions; medium problems unreliable |
 | Stack | 🟡 Developing | 3 problems (Valid Parentheses Easy independent, Min Stack Medium with hints, Evaluate RPN Medium correct first paste — pop order and truncate-toward-zero both right) | Redundant accumulator state and `range(len(` idiom needed coaching; monotonic stack and harder variations (Daily Temperatures, Largest Rectangle) untested |
 | Binary Search | 🟠 Familiar | 1 easy (Binary Search) — textbook correct, all edge cases; clean implementation | Only the base case; rotated array, peak finding, and answer-space binary search untested |
@@ -103,7 +103,7 @@ solve it cold, explain it clearly, and handle variations under interview pressur
 - [x] Two Sum II - Input Array Is Sorted
 - [~] 3Sum — accepted O(n²) after coaching; repeat cold to demonstrate independent mastery
 - [ ] Sort Colors
-- [ ] Container With Most Water
+- [~] Container With Most Water — O(n) two pointers; invariant/edge cases reviewed with coaching
 - [ ] Trapping Rain Water
 
 ### Sliding Window
