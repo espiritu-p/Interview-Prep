@@ -50,7 +50,7 @@ solve it cold, explain it clearly, and handle variations under interview pressur
 
 | Topic | Grade | Evidence | Gap |
 |-------|-------|----------|-----|
-| Backtracking | ⬜ Not Started | — | — |
+| Backtracking | 🔴 Exposed | Generate Parentheses implemented with coaching; first recursion/backtracking problem | Recursive call/return flow and valid-prefix invariant need cold practice; closing guard corrected with assistance |
 | Graphs (BFS / DFS) | ⬜ Not Started | — | — |
 | Advanced Graphs (Dijkstra, MST, Topological Sort) | ⬜ Not Started | — | — |
 
@@ -126,7 +126,7 @@ solve it cold, explain it clearly, and handle variations under interview pressur
 - [ ] Asteroid Collision
 - [x] Min Stack
 - [x] Evaluate Reverse Polish Notation
-- [ ] Generate Parentheses
+- [~] Generate Parentheses — first backtracking problem; recursion coached and closing guard corrected with assistance
 - [~] Daily Temperatures — correct O(n) monotonic stack after coaching; repeat cold to demonstrate independent mastery
 - [ ] Car Fleet
 - [ ] Largest Rectangle in Histogram

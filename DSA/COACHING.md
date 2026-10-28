@@ -31,7 +31,7 @@ Persistent record across all five tracks. Updated after every session.
 | Bit Manipulation | 🔁 Needs redo | Problems solved but concepts need re-learning from scratch |
 | Sliding Window | 🔁 Needs redo | Best Time to Buy and Sell Stock, Max Vowels in Substring, Min Size Subarray Sum, Longest Substring Without Repeating Characters, Longest Repeating Character Replacement, Permutation in String, Min Window Substring, Sliding Window Maximum |
 | **Two Pointers** | ✅ Partial | Sort Colors, Trapping Rain Water |
-| **Stack** | ✅ Partial | Decode String, Asteroid Collision, Generate Parentheses, Car Fleet, Largest Rectangle in Histogram |
+| **Stack** | ✅ Partial | Decode String, Asteroid Collision, Car Fleet, Largest Rectangle in Histogram |
 | **Binary Search** | ✅ Partial | Find Peak Element, Search a 2D Matrix, Koko Eating Bananas, Find Min in Rotated Sorted Array, Search in Rotated Sorted Array, Time Based Key-Value Store, Median of Two Sorted Arrays |
 
 ### Phase 2 — Core Data Structures
@@ -47,7 +47,7 @@ Persistent record across all five tracks. Updated after every session.
 
 | Topic | Status |
 |---|---|
-| Backtracking | ⬜ NOT STARTED |
+| Backtracking | 🔴 Exposed — Generate Parentheses with coaching; recursion and valid-prefix guard need cold practice |
 | Graphs (BFS/DFS) | ⬜ NOT STARTED |
 | Advanced Graphs | ⬜ NOT STARTED |
 
@@ -114,7 +114,7 @@ Missed day → roll forward and absorb into the next 3-problem easy day; Nov 15 
 | Day | Topic | Problems | Status |
 |-----|-------|----------|--------|
 | Oct 26 | Two Pointers · Stack | [3Sum](https://leetcode.com/problems/3sum/) · [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) | 3Sum ✅ Oct 27; Daily Temperatures ✅ Oct 28 (with coaching) |
-| Oct 27 | Two Pointers · Stack | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) · [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) + rolled [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) | Container With Most Water ✅ Oct 27; Daily Temperatures ✅ Oct 28; Generate Parentheses pending |
+| Oct 27 | Two Pointers · Stack | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) · [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) + rolled [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) | Container With Most Water ✅ Oct 27; Daily Temperatures + Generate Parentheses ✅ Oct 28 (with coaching) |
 | Oct 28 | Binary Search | [Find Min in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) · [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | |
 | Oct 29 | Binary Search · Sliding Window | [Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/) · [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | |
 | Oct 30 | Sliding Window | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) · [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/) | |
@@ -342,6 +342,33 @@ is O(n); brute force takes O(n²)."
 
 **Next assignment:** [Generate Parentheses (LC 22)](https://leetcode.com/problems/generate-parentheses/)
 — remaining Oct 27 backlog, before today's rotated-array problems.
+
+---
+
+### Session 5 — 2026-10-28 — Generate Parentheses
+
+**What landed:** First backtracking problem. Submitted implementation correctly
+uses a shared path, recursive exploration, append/pop undo, and a terminal case.
+
+**What needed coaching:** Swapping-based idea replaced with valid-prefix
+backtracking. Explained Catalan output counts, recursion's pause/return/resume
+flow, and choose/explore/undo. Questions about recursion were teachable moments,
+not Python-semantics gaps. Submitted `closed < n` allowed invalid prefixes such
+as `")("`; assistant corrected it to `closed < opened` before saving, as requested.
+Edge cases and brute-force variant were discussed. Not independently solved;
+Backtracking is 🔴 Exposed and needs a cold repeat.
+
+**Best interview answer:** "I build valid prefixes, opening only when opened < n
+and closing only when closed < opened. I undo each choice after exploring it.
+There are C_n results of length 2n, so time is O(n * C_n), with O(n) auxiliary
+space excluding output. Brute-force generation and filtering takes O(n * 4^n)."
+
+**Status:** Saved with assistance; local checks only, no LeetCode acceptance
+reported. Oct 26–27 backlog complete.
+
+**Next assignment:** [Find Minimum in Rotated Sorted Array (LC 153)](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/),
+then [Search in Rotated Sorted Array (LC 33)](https://leetcode.com/problems/search-in-rotated-sorted-array/)
+— today's binary-search assignments. Other four tracks remain paused.
 
 ---
 
