@@ -30,7 +30,7 @@ solve it cold, explain it clearly, and handle variations under interview pressur
 | Bit Manipulation | 🟠 Familiar | 5 problems solved but concepts not internalized — XOR tricks and bitmasking patterns need re-learning from scratch | Cannot explain the underlying bit mechanics; needs redo before mediums |
 | Two Pointers | 🟡 Developing | 5 problems (Valid Palindrome Easy, Move Zeroes Easy, Two Sum II Medium, 3Sum Medium, Container With Most Water Medium) | 3Sum duplicate handling and Container With Most Water pointer invariant needed coaching; Sort Colors and Trapping Rain Water remain untested |
 | Sliding Window | 🟠 Familiar | 2 problems (Fruits Into Baskets, Maximum Erasure Value) but template not solid; needs redo | Cannot reliably identify window expand/shrink conditions; medium problems unreliable |
-| Stack | 🟡 Developing | 3 problems (Valid Parentheses Easy independent, Min Stack Medium with hints, Evaluate RPN Medium correct first paste — pop order and truncate-toward-zero both right) | Redundant accumulator state and `range(len(` idiom needed coaching; monotonic stack and harder variations (Daily Temperatures, Largest Rectangle) untested |
+| Stack | 🟡 Developing | 4 problems (Valid Parentheses Easy independent, Min Stack Medium with hints, Evaluate RPN Medium correct first paste, Daily Temperatures Medium correct after monotonic-stack coaching) | Daily Temperatures pattern recognition and amortized O(n) explanation needed coaching; repeat cold. Car Fleet and Largest Rectangle remain untested |
 | Binary Search | 🟠 Familiar | 1 easy (Binary Search) — textbook correct, all edge cases; clean implementation | Only the base case; rotated array, peak finding, and answer-space binary search untested |
 
 ---
@@ -127,7 +127,7 @@ solve it cold, explain it clearly, and handle variations under interview pressur
 - [x] Min Stack
 - [x] Evaluate Reverse Polish Notation
 - [ ] Generate Parentheses
-- [ ] Daily Temperatures
+- [~] Daily Temperatures — correct O(n) monotonic stack after coaching; repeat cold to demonstrate independent mastery
 - [ ] Car Fleet
 - [ ] Largest Rectangle in Histogram
 

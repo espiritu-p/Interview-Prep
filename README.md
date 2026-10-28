@@ -5,7 +5,7 @@
 Python interview prep + DSA + AI engineering + system design + React — working toward interview-ready by **October 1, 2026** — DSA backlog reset to **November 15, 2026**.
 
 [![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
-[![LeetCode](https://img.shields.io/badge/LeetCode-33%20Solutions-FFA116?style=flat-square&logo=leetcode&logoColor=black)](https://leetcode.com/)
+[![LeetCode](https://img.shields.io/badge/LeetCode-34%20Solutions-FFA116?style=flat-square&logo=leetcode&logoColor=black)](https://leetcode.com/)
 [![Kattis](https://img.shields.io/badge/Kattis-144%20Solved-1F8ACB?style=flat-square)](https://open.kattis.com/)
 [![Last Commit](https://img.shields.io/github/last-commit/espiritu-p/Interview-Prep?style=flat-square&color=brightgreen)](https://github.com/espiritu-p/Interview-Prep/commits/master)
 
@@ -95,7 +95,7 @@ DSA runs alone until **Nov 15** ([Backlog Plan](./DSA/COACHING.md)); the other t
 
 | Track | Scope | Status |
 |-------|-------|--------|
-| DSA | 48-problem September backlog, re-dated Oct 26 → Nov 15 (3Sum and Container With Most Water completed; 46 remain) | 🟡 Active — 3Sum accepted Oct 27; Container With Most Water solution checked Oct 27 with coaching |
+| DSA | 48-problem September backlog, re-dated Oct 26 → Nov 15 (3Sum, Container With Most Water, and Daily Temperatures completed; 45 remain) | 🟡 Active — Daily Temperatures completed Oct 28 with coaching; Generate Parentheses next |
 | System Design | Phases 1–4 + 3 mock case studies | ⏸ Paused — 1.1–1.3 complete |
 | AI Engineering | Phases 1–4 + per-phase exercises | ⏸ Paused — 1.1–1.2 complete; `attention_from_scratch.py` in progress since Sept 7 |
 | React | Phases 1–4 | ⏸ Paused — not started |
