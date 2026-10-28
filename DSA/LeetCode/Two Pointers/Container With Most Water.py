@@ -25,3 +25,18 @@ class Solution:
                 right -= 1
 
         return max_area
+
+
+if __name__ == "__main__":
+    solution = Solution()
+    for heights, expected in (
+        ([], 0),
+        ([5], 0),
+        ([1, 1], 1),
+        ([0, 0, 0], 0),
+        ([4, 4, 4, 4], 12),
+        ([1, 2, 3, 4], 4),
+        ([4, 3, 2, 1], 4),
+        ([1, 8, 6, 2, 5, 4, 8, 3, 7], 49),
+    ):
+        assert solution.maxArea(heights) == expected, heights

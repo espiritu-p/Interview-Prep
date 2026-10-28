@@ -30,7 +30,7 @@ Persistent record across all five tracks. Updated after every session.
 | Math and String | ✅ Partial | (covered well enough, not blocking) |
 | Bit Manipulation | 🔁 Needs redo | Problems solved but concepts need re-learning from scratch |
 | Sliding Window | 🔁 Needs redo | Best Time to Buy and Sell Stock, Max Vowels in Substring, Min Size Subarray Sum, Longest Substring Without Repeating Characters, Longest Repeating Character Replacement, Permutation in String, Min Window Substring, Sliding Window Maximum |
-| **Two Pointers** | ✅ Partial | Sort Colors, Container With Most Water, Trapping Rain Water |
+| **Two Pointers** | ✅ Partial | Sort Colors, Trapping Rain Water |
 | **Stack** | ✅ Partial | Decode String, Asteroid Collision, Generate Parentheses, Daily Temperatures, Car Fleet, Largest Rectangle in Histogram |
 | **Binary Search** | ✅ Partial | Find Peak Element, Search a 2D Matrix, Koko Eating Bananas, Find Min in Rotated Sorted Array, Search in Rotated Sorted Array, Time Based Key-Value Store, Median of Two Sorted Arrays |
 
@@ -220,6 +220,10 @@ Question bank: [`Concepts/python-interview.md`](./Concepts/python-interview.md) 
 |---|---|---|---|
 | 2026-09-08 | Q1.1 | `is` vs `==` | ⏳ asked — awaiting answer |
 | 2026-09-08 | Q2.1 | list/dict implementations + operation costs | ⏳ asked — awaiting answer |
+| 2026-10-26 | Q1.1 | `is` vs `==` | 🟡 Correct on attempt 3; needs one more cold answer to clear rotation |
+| 2026-10-26 | Q2.1 | list/dict implementations + operation costs | 🟡 Correct on attempt 3; needs one more cold answer to clear rotation |
+| 2026-10-28 | Q1.1 | `is` vs `==` | ✅ Previously answered correctly (user confirmed); no repeat today; cold streak not recorded |
+| 2026-10-28 | Q2.1 | list/dict implementations + operation costs | ✅ Previously answered correctly (user confirmed); no repeat today; cold streak not recorded |
 
 ---
 
@@ -300,7 +304,7 @@ restart. Replans across machines were reconciled: the Nov 15 DSA-only schedule i
 | 8 | [3Sum](https://leetcode.com/problems/3sum/) | Two Pointers | Medium | ✅ Solved Oct 27 (with coaching) |
 | 9 | [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) | Stack (monotonic) | Medium | 🔄 Rolled to Oct 27 |
 | 10 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | Two Pointers | Medium | ✅ Solved Oct 27 (with coaching; local smoke passed) |
-| — | Warm-up: Q1.1 (`is` vs `==`) + Q2.1 (list/dict costs) — unanswered since Sept 8 | Python drill | — | 🔄 Pending |
+| — | Warm-up: Q1.1 (`is` vs `==`) + Q2.1 (list/dict costs) | Python drill | — | ✅ Previously answered correctly; user confirmed Oct 28 |
 
 **3Sum review — completed 2026-10-27 (accepted, 769 ms; with coaching):**
 - Replaced the offset-index brute force, which reused an index and produced the false triplet `[-2, 1, 1]` for `[3, -2, 1, 0]`, with sorting + anchor + two pointers.
@@ -310,6 +314,7 @@ restart. Replans across machines were reconciled: the Nov 15 DSA-only schedule i
 **Container With Most Water review — completed 2026-10-27 (with coaching; local smoke passed):**
 - Implemented the O(n) two-pointer solution with O(1) extra space; moves the shorter endpoint and moves the right endpoint on ties.
 - Needed coaching to articulate the pointer-elimination invariant and identify boundary, equal-height, and zero-height cases; `PROGRESS.md` records this as solution-checked, not independently mastered.
+- Re-reviewed Oct 28: the pasted algorithm was correct; the synced revision already fixes naming, docstring placement, edge cases, and the mislabeled brute-force plan. Added runnable boundary/example checks to the solution file.
 
 
 **Carried, not assigned this window:** [`attention_from_scratch.py`](../AI-Engineering/Exercises/attention_from_scratch.py) (scaffolded Sept 7, tests + STEP NOTES open) — finish opportunistically; `SD: Phase 1.4` CDN quiz queued for track restart.

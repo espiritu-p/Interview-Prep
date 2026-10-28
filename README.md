@@ -5,7 +5,7 @@
 Python interview prep + DSA + AI engineering + system design + React — working toward interview-ready by **October 1, 2026** — DSA backlog reset to **November 15, 2026**.
 
 [![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
-[![LeetCode](https://img.shields.io/badge/LeetCode-34%20Solved-FFA116?style=flat-square&logo=leetcode&logoColor=black)](https://leetcode.com/)
+[![LeetCode](https://img.shields.io/badge/LeetCode-33%20Solutions-FFA116?style=flat-square&logo=leetcode&logoColor=black)](https://leetcode.com/)
 [![Kattis](https://img.shields.io/badge/Kattis-144%20Solved-1F8ACB?style=flat-square)](https://open.kattis.com/)
 [![Last Commit](https://img.shields.io/github/last-commit/espiritu-p/Interview-Prep?style=flat-square&color=brightgreen)](https://github.com/espiritu-p/Interview-Prep/commits/master)
 
@@ -99,7 +99,7 @@ DSA runs alone until **Nov 15** ([Backlog Plan](./DSA/COACHING.md)); the other t
 | System Design | Phases 1–4 + 3 mock case studies | ⏸ Paused — 1.1–1.3 complete |
 | AI Engineering | Phases 1–4 + per-phase exercises | ⏸ Paused — 1.1–1.2 complete; `attention_from_scratch.py` in progress since Sept 7 |
 | React | Phases 1–4 | ⏸ Paused — not started |
-| Python | Phases 1–4 + DSA warm-up drills | ⏸ Paused — Q1.1/Q2.1 pending in drill log |
+| Python | Phases 1–4 + DSA warm-up drills | ⏸ Paused — Q1.1/Q2.1 previously answered correctly (confirmed Oct 28) |
 
 Detailed battle plans:
 - DSA: [`DSA/COACHING.md`](./DSA/COACHING.md)
