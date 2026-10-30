@@ -115,7 +115,7 @@ Missed day → roll forward and absorb into the next 3-problem easy day; Nov 15 
 |-----|-------|----------|--------|
 | Oct 26 | Two Pointers · Stack | [3Sum](https://leetcode.com/problems/3sum/) · [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) | 3Sum ✅ Oct 27; Daily Temperatures ✅ Oct 28 (with coaching) |
 | Oct 27 | Two Pointers · Stack | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) · [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) + rolled [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) | Container With Most Water ✅ Oct 27; Daily Temperatures + Generate Parentheses ✅ Oct 28 (with coaching) |
-| Oct 28 | Binary Search | [Find Min in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) · [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | |
+| Oct 28 | Binary Search | [Find Min in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) · [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-array/) | Find Min ✅ Oct 30 (accepted, with coaching); Search ✅ Oct 30 (accepted, with coaching) |
 | Oct 29 | Binary Search · Sliding Window | [Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/) · [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | |
 | Oct 30 | Sliding Window | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) · [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/) | |
 | Oct 31 | Sliding Window · Hashing | [Permutation in String](https://leetcode.com/problems/permutation-in-string/) · [Two Sum](https://leetcode.com/problems/two-sum/) · [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | |
@@ -224,6 +224,8 @@ Question bank: [`Concepts/python-interview.md`](./Concepts/python-interview.md) 
 | 2026-10-26 | Q2.1 | list/dict implementations + operation costs | 🟡 Correct on attempt 3; needs one more cold answer to clear rotation |
 | 2026-10-28 | Q1.1 | `is` vs `==` | ✅ Previously answered correctly (user confirmed); no repeat today; cold streak not recorded |
 | 2026-10-28 | Q2.1 | list/dict implementations + operation costs | ✅ Previously answered correctly (user confirmed); no repeat today; cold streak not recorded |
+| 2026-10-30 | Q1.1 | `is` vs `==` | ✅ Correct cold answer; clears rotation |
+| 2026-10-30 | Q2.1 | list/dict implementations + operation costs | 🟡 Partial: costs mostly right; missed dynamic-array/hash-table implementations; repeat cold |
 
 ---
 
@@ -366,9 +368,49 @@ space excluding output. Brute-force generation and filtering takes O(n * 4^n)."
 **Status:** Saved with assistance; local checks only, no LeetCode acceptance
 reported. Oct 26–27 backlog complete.
 
-**Next assignment:** [Find Minimum in Rotated Sorted Array (LC 153)](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/),
-then [Search in Rotated Sorted Array (LC 33)](https://leetcode.com/problems/search-in-rotated-sorted-array/)
-— today's binary-search assignments. Other four tracks remain paused.
+**Assignment update:** LC 153 was accepted Oct 30 (see Session 6); LC 33 remains
+next. Other four tracks remain paused.
+
+### Session 6 — 2026-10-30 — Find Minimum in Rotated Sorted Array
+
+**What landed:** Final binary search maintains a range containing the minimum,
+compares `nums[mid]` with `nums[right]`, and correctly updates either boundary.
+Accepted on LeetCode; O(log n) time and O(1) space.
+
+**What needed coaching:** Started with `min(nums)`, a correct O(n) baseline that
+misses the required O(log n) bound. Needed a reminder that the task is to locate
+the minimum, not search for a separate key; then derived the binary-search
+branches and submitted the accepted solution.
+
+**Best interview answer:** “I maintain a range `[left, right]` containing the
+minimum. If `nums[mid] > nums[right]`, the minimum is strictly right of `mid`;
+otherwise it is at `mid` or to its left. I shrink the range until both pointers
+meet and return that value. This takes O(log n) time and O(1) space.”
+
+**Assignment update:** LC 33 was accepted Oct 30 with coaching (see Session 7).
+Next in the backlog: [Koko Eating Bananas (LC 875)](https://leetcode.com/problems/koko-eating-bananas/).
+Other tracks remain paused.
+
+### Session 7 — 2026-10-30 — Search in Rotated Sorted Array
+
+**What landed:** Final solution identifies the sorted half, checks whether the
+target is inside its value range, and discards the other half. It uses inclusive
+binary-search bounds that always shrink. Accepted on LeetCode; O(log n) time and
+O(1) space.
+
+**What needed coaching:** Initial branches compared the target to an endpoint
+without first identifying which half was sorted. With help, applied the sorted
+half invariant and submitted the correct solution.
+
+**Best interview answer:** “After checking `mid`, at least one side is sorted. I
+check whether the target falls within that side’s value range and keep that half;
+otherwise I discard it. Because the array has distinct values, the midpoint
+comparison identifies the sorted side. I exclude `mid` each time, so the search
+range halves until I find the target or it becomes empty. Time is O(log n), space
+O(1).”
+
+**Next assignment:** [Koko Eating Bananas (LC 875)](https://leetcode.com/problems/koko-eating-bananas/).
+Other tracks remain paused.
 
 ---
 
