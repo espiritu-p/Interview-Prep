@@ -118,7 +118,7 @@ Missed day → roll forward and absorb into the next 3-problem easy day; Nov 15 
 | Oct 28 | Binary Search | [Find Min in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) · [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-array/) | Find Min ✅ Oct 30 (accepted, with coaching); Search ✅ Oct 30 (accepted, with coaching) |
 | Oct 29 | Binary Search · Sliding Window | [Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/) · [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | |
 | Oct 30 | Sliding Window | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) · [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/) | |
-| Oct 31 | Sliding Window · Hashing | [Permutation in String](https://leetcode.com/problems/permutation-in-string/) · [Two Sum](https://leetcode.com/problems/two-sum/) · [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | |
+| Oct 31 | Sliding Window · Hashing | [Permutation in String](https://leetcode.com/problems/permutation-in-string/) · [Two Sum](https://leetcode.com/problems/two-sum/) · [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | LC 567 solution reviewed and saved (with coaching; acceptance not reported); LC 1 + LC 49 pending |
 | Nov 1 | Hashing | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) · [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | |
 | Nov 2 | Linked List | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) · [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) · [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | |
 | Nov 3 | Linked List | [Reorder List](https://leetcode.com/problems/reorder-list/) · [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | |
@@ -411,6 +411,30 @@ O(1).”
 
 **Next assignment:** [Koko Eating Bananas (LC 875)](https://leetcode.com/problems/koko-eating-bananas/).
 Other tracks remain paused.
+
+### Session 8 — 2026-10-31 — Permutation in String
+
+**What landed:** Final solution counts `s1` and a fixed-size window in `s2`, then
+updates the window by removing the outgoing character and adding the incoming
+one. It checks the first and final windows and handles repeated characters.
+
+**What needed coaching:** Initially proposed backtracking to generate
+permutations, then rebuilt a `Counter` for every candidate window. Coaching
+redirected this to incremental fixed-window counts, reducing O(nm) work to O(n)
+for the fixed lowercase-English alphabet. The solution was not independently
+derived.
+
+**Best interview answer:** “I maintain a count for the current
+`len(s1)`-character window and compare it with `Counter(s1)`. When the window
+advances, I decrement the outgoing character, remove it if its count reaches
+zero, and increment the incoming character. Every window is checked once,
+giving O(n) time and O(1) space for the fixed 26-letter alphabet.”
+
+**Status:** Saved after coaching; LeetCode acceptance was not reported.
+
+**Assignment update:** LC 1 (Two Sum) and LC 49 (Group Anagrams) remain from the
+Oct 31 schedule. Oct 29–30 backlog entries remain unmarked; LC 875 is still next
+in the backlog. Other tracks remain paused.
 
 ---
 

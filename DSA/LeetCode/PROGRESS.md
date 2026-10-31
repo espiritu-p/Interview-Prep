@@ -115,7 +115,7 @@ solve it cold, explain it clearly, and handle variations under interview pressur
 - [ ] Minimum Size Subarray Sum
 - [ ] Longest Substring Without Repeating Characters
 - [ ] Longest Repeating Character Replacement
-- [ ] Permutation in String
+- [~] Permutation in String — fixed-window Counter solution reviewed with coaching; LeetCode acceptance not reported
 - [ ] Minimum Window Substring
 - [ ] Sliding Window Maximum
 
