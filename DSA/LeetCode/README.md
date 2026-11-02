@@ -1,6 +1,6 @@
 # LeetCode Solutions
 
-36 solution files tracked, organized by topic. Each file has inline comments explaining the approach and any tricky edge cases.
+37 solution files tracked, organized by topic. Each file has inline comments explaining the approach and any tricky edge cases.
 
 ---
 
@@ -12,6 +12,7 @@
 | [Bit Manipulation](./Bit%20Manipulation/) | 5 | XOR, bit masking, bitwise tricks |
 | [Greedy](./Greedy/) | 3 | Local-best choices; see [Concepts/greedy.md](../Concepts/greedy.md) |
 | [Hashing](./Hashing/) | 4 | Frequency maps, existence checks |
+| [Linked List](./Linked%20List/) | 1 | In-place pointer rewiring |
 | [Math and String](./Math%20and%20String/) | 4 | Arithmetic, string parsing |
 | [Sliding Window](./Sliding%20Window/) | 3 | Variable/fixed window over array |
 | [Stack](./Stack/) | 5 | LIFO matching, monotonic stacks, and parentheses backtracking |
@@ -61,6 +62,12 @@
 | 268 | [Missing Number](https://leetcode.com/problems/missing-number/) | Easy |
 | 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | Easy |
 | 347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | Medium |
+
+## Linked List
+
+| # | Problem | Difficulty |
+|---|---------|-----------|
+| 206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | Easy |
 
 ## Math and String
 

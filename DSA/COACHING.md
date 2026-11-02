@@ -32,7 +32,7 @@ Persistent record across all five tracks. Updated after every session.
 | Sliding Window | 🔁 Needs redo | Best Time to Buy and Sell Stock, Max Vowels in Substring, Min Size Subarray Sum, Longest Substring Without Repeating Characters, Longest Repeating Character Replacement, Permutation in String, Min Window Substring, Sliding Window Maximum |
 | **Two Pointers** | ✅ Partial | Sort Colors, Trapping Rain Water |
 | **Stack** | ✅ Partial | Decode String, Asteroid Collision, Car Fleet, Largest Rectangle in Histogram |
-| **Binary Search** | ✅ Partial | Find Peak Element, Search a 2D Matrix, Koko Eating Bananas, Find Min in Rotated Sorted Array, Search in Rotated Sorted Array, Time Based Key-Value Store, Median of Two Sorted Arrays |
+| **Binary Search** | ✅ Partial | Find Peak Element, Search a 2D Matrix, Koko Eating Bananas, Time Based Key-Value Store, Median of Two Sorted Arrays |
 
 ### Phase 2 — Core Data Structures
 
@@ -120,7 +120,7 @@ Missed day → roll forward and absorb into the next 3-problem easy day; Nov 15 
 | Oct 30 | Sliding Window | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) · [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/) | |
 | Oct 31 | Sliding Window · Hashing | [Permutation in String](https://leetcode.com/problems/permutation-in-string/) · [Two Sum](https://leetcode.com/problems/two-sum/) · [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | LC 567 solution reviewed and saved (with coaching; acceptance not reported); LC 1 + LC 49 pending |
 | Nov 1 | Hashing | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) · [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | |
-| Nov 2 | Linked List | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) · [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) · [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | |
+| Nov 2 | Linked List | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) · [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) · [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | Reverse Linked List ✅ iterative solution saved with hints; LeetCode acceptance not reported |
 | Nov 3 | Linked List | [Reorder List](https://leetcode.com/problems/reorder-list/) · [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | |
 | Nov 4 | Trees | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) · [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) · [Same Tree](https://leetcode.com/problems/same-tree/) | |
 | Nov 5 | Trees | [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) · [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | |
@@ -435,6 +435,22 @@ giving O(n) time and O(1) space for the fixed 26-letter alphabet.”
 **Assignment update:** LC 1 (Two Sum) and LC 49 (Group Anagrams) remain from the
 Oct 31 schedule. Oct 29–30 backlog entries remain unmarked; LC 875 is still next
 in the backlog. Other tracks remain paused.
+
+### Session 9 — 2026-11-02 — Reverse Linked List
+
+**What landed:** Iterative pointer reversal is correct: save the remainder before
+rewiring `cur.next`, then advance `prev` and `cur`. The submitted implementation
+handles empty and single-node lists without special cases.
+
+**What needed coaching:** The in-place approach was developed with pointer-tracing
+hints. The stack alternative is valid but uses O(n) auxiliary space; the submitted
+iterative solution uses O(1). Needs a cold repeat before independent mastery.
+
+**Status:** Solution saved to the repository with assistance. LeetCode acceptance
+was not reported; Linked List remains 🔴 Exposed.
+
+**Next assignments:** [Merge Two Sorted Lists (LC 21)](https://leetcode.com/problems/merge-two-sorted-lists/)
+and [Linked List Cycle (LC 141)](https://leetcode.com/problems/linked-list-cycle/).
 
 ---
 

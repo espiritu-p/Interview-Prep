@@ -31,7 +31,7 @@ solve it cold, explain it clearly, and handle variations under interview pressur
 | Two Pointers | 🟡 Developing | 5 problems (Valid Palindrome Easy, Move Zeroes Easy, Two Sum II Medium, 3Sum Medium, Container With Most Water Medium) | 3Sum duplicate handling and Container With Most Water pointer invariant needed coaching; Sort Colors and Trapping Rain Water remain untested |
 | Sliding Window | 🟠 Familiar | 2 problems (Fruits Into Baskets, Maximum Erasure Value) but template not solid; needs redo | Cannot reliably identify window expand/shrink conditions; medium problems unreliable |
 | Stack | 🟡 Developing | 4 problems (Valid Parentheses Easy independent, Min Stack Medium with hints, Evaluate RPN Medium correct first paste, Daily Temperatures Medium correct after monotonic-stack coaching) | Daily Temperatures pattern recognition and amortized O(n) explanation needed coaching; repeat cold. Car Fleet and Largest Rectangle remain untested |
-| Binary Search | 🟠 Familiar | 1 easy (Binary Search) — textbook correct, all edge cases; clean implementation | Only the base case; rotated array, peak finding, and answer-space binary search untested |
+| Binary Search | 🟠 Familiar | Binary Search easy independent; LC 153 and LC 33 accepted with coaching | Need a cold solve of rotated-array search and answer-space binary search; Find Peak, 2D Matrix, Koko, and advanced variants untested |
 
 ---
 
@@ -39,7 +39,7 @@ solve it cold, explain it clearly, and handle variations under interview pressur
 
 | Topic | Grade | Evidence | Gap |
 |-------|-------|----------|-----|
-| Linked List | ⬜ Not Started | — | — |
+| Linked List | 🔴 Exposed | Reverse Linked List — iterative O(n)/O(1) solution completed with hints; needs a cold independent solve | Pointer-reversal invariant and recursive variant need cold practice |
 | Trees (BFS / DFS) | ⬜ Not Started | — | — |
 | Tries | ⬜ Not Started | — | — |
 | Heap / Priority Queue | ⬜ Not Started | — | — |
@@ -137,14 +137,14 @@ solve it cold, explain it clearly, and handle variations under interview pressur
 - [ ] Find Peak Element
 - [ ] Search a 2D Matrix
 - [ ] Koko Eating Bananas
-- [ ] Find Minimum in Rotated Sorted Array
-- [ ] Search in Rotated Sorted Array
+- [~] Find Minimum in Rotated Sorted Array — accepted with coaching Oct 30; repeat cold to demonstrate independent mastery
+- [~] Search in Rotated Sorted Array — accepted with coaching Oct 30; repeat cold to demonstrate independent mastery
 - [ ] Time Based Key-Value Store
 - [ ] Median of Two Sorted Arrays
 
 ### Linked List
 
-- [ ] Reverse Linked List
+- [~] Reverse Linked List — iterative pointer reversal after hints; repeat cold to demonstrate independent mastery
 - [ ] Merge Two Sorted Lists
 - [ ] Linked List Cycle
 - [ ] Middle of the Linked List

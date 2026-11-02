@@ -5,7 +5,7 @@
 Python interview prep + DSA + AI engineering + system design + React — working toward interview-ready by **October 1, 2026** — DSA backlog reset to **November 15, 2026**.
 
 [![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
-[![LeetCode](https://img.shields.io/badge/LeetCode-36%20Solutions-FFA116?style=flat-square&logo=leetcode&logoColor=black)](https://leetcode.com/)
+[![LeetCode](https://img.shields.io/badge/LeetCode-37%20Solutions-FFA116?style=flat-square&logo=leetcode&logoColor=black)](https://leetcode.com/)
 [![Kattis](https://img.shields.io/badge/Kattis-144%20Solved-1F8ACB?style=flat-square)](https://open.kattis.com/)
 [![Last Commit](https://img.shields.io/github/last-commit/espiritu-p/Interview-Prep?style=flat-square&color=brightgreen)](https://github.com/espiritu-p/Interview-Prep/commits/master)
 
@@ -54,7 +54,7 @@ Four-phase Python interview preparation: language semantics → async/concurrenc
 ```
 Interview-Prep/
 ├── DSA/
-│   ├── COACHING.md              session log + September battle plan
+│   ├── COACHING.md              session log + daily backlog plan
 │   ├── LeetCode/
 │   │   ├── PROGRESS.md          phased checklist with per-problem tick boxes
 │   │   └── <Topic>/             solutions grouped by topic
@@ -95,7 +95,7 @@ DSA runs alone until **Nov 15** ([Backlog Plan](./DSA/COACHING.md)); the other t
 
 | Track | Scope | Status |
 |-------|-------|--------|
-| DSA | 48-problem September backlog, re-dated Oct 26 → Nov 15 (42 remain; LC 153 and 33 accepted Oct 30, plus 3Sum, Container With Most Water, Daily Temperatures, and Generate Parentheses completed with coaching) | 🟡 Active — LC 567 reviewed with coaching (acceptance not reported); LC 875 next in backlog |
+| DSA | 48-problem September backlog, re-dated Oct 26 → Nov 15 (42 remain; LC 153 and 33 accepted Oct 30, plus 3Sum, Container With Most Water, Daily Temperatures, and Generate Parentheses completed with coaching) | 🟡 Active — LC 567 and LC 206 solutions saved with coaching (LeetCode acceptance unreported); Nov 2 remaining: LC 21 and LC 141 |
 | System Design | Phases 1–4 + 3 mock case studies | ⏸ Paused — 1.1–1.3 complete |
 | AI Engineering | Phases 1–4 + per-phase exercises | ⏸ Paused — 1.1–1.2 complete; `attention_from_scratch.py` in progress since Sept 7 |
 | React | Phases 1–4 | ⏸ Paused — not started |
