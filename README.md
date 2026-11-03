@@ -1,27 +1,53 @@
-# Interview Prep
+<div align="center">
 
-A public workbench for technical interview preparation: algorithmic problem-solving plus structured study in system design, AI engineering, React, and Python. The focus is on explaining choices, complexity, edge cases, and trade-offs—not just collecting notes.
+<h1>Interview Prep</h1>
 
-## Results
+<p>A focused practice repository for technical interviews, built around clear reasoning and working code.</p>
 
-- **144 Kattis problems solved**, organized by problem type. [Browse the solutions](./DSA/Kattis/README.md).
-- **38 LeetCode solution files**, organized by topic with inline explanations of approaches and edge cases. [Browse the solutions](./DSA/LeetCode/README.md).
+<p>
+  <a href="https://www.python.org/"><img alt="Python 3.x" src="https://img.shields.io/badge/Python-3.x-3776AB?style=flat-square&amp;logo=python&amp;logoColor=white"></a>
+  <a href="./DSA/LeetCode/README.md"><img alt="38 LeetCode solution files" src="https://img.shields.io/badge/LeetCode-38%20solution%20files-FFA116?style=flat-square&amp;logo=leetcode&amp;logoColor=black"></a>
+  <a href="./DSA/Kattis/README.md"><img alt="144 Kattis problems solved" src="https://img.shields.io/badge/Kattis-144%20solved-1F8ACB?style=flat-square"></a>
+</p>
 
-## Technical focus
+</div>
 
-| Area | Topics | Study materials |
-|---|---|---|
-| Algorithms & data structures | Arrays, hashing, two pointers, sliding windows, stacks, trees, graphs, and optimization patterns. | [LeetCode](./DSA/LeetCode/README.md) · [Kattis](./DSA/Kattis/README.md) · [Concept notes](./DSA/Concepts/) |
-| System design | APIs, data storage, scalability, reliability, and cloud-service trade-offs. | [Curriculum](./System-Design/PLAN.md) · [Concept notes](./System-Design/Concepts/) |
-| AI engineering | Transformer internals, retrieval-augmented generation, agents, evaluation, fine-tuning, and inference. | [Curriculum](./AI-Engineering/PLAN.md) · [Concept notes](./AI-Engineering/Concepts/) |
-| React | Rendering, hooks, performance, and production frontend architecture. | [Curriculum](./React/PLAN.md) · [Concept notes](./React/Concepts/) |
-| Python | Language semantics, async and concurrency, interview fundamentals, NumPy, and pandas. | [Curriculum](./Python/PLAN.md) · [Concept notes](./Python/Concepts/) |
+## Tracks
+
+### Algorithms & data structures
+
+Python problem-solving across core algorithm patterns.
+
+[LeetCode solutions](./DSA/LeetCode/README.md) · [Kattis solutions](./DSA/Kattis/README.md) · [Concept notes](./DSA/Concepts/)
+
+### System design
+
+APIs, storage, scalability, reliability, and cloud trade-offs.
+
+[Study plan](./System-Design/PLAN.md) · [Concept notes](./System-Design/Concepts/)
+
+### AI engineering
+
+Transformer internals, RAG, agents, evaluation, fine-tuning, and inference.
+
+[Study plan](./AI-Engineering/PLAN.md) · [Concept notes](./AI-Engineering/Concepts/)
+
+### React
+
+Rendering, hooks, performance, and production frontend architecture.
+
+[Study plan](./React/PLAN.md) · [Concept notes](./React/Concepts/)
+
+### Python
+
+Language semantics, async and concurrency, interview fundamentals, NumPy, and pandas.
+
+[Study plan](./Python/PLAN.md) · [Concept notes](./Python/Concepts/)
 
 ## Repository guide
 
-- Each track's `PLAN.md` outlines its technical scope.
-- `Concepts/` folders hold topic notes and references.
-- The DSA solution indexes are the source of truth for problem lists and solution totals.
-- [`CS-ROADMAP.md`](./CS-ROADMAP.md) connects computer-science fundamentals to the study plan.
+- Start with a track's `PLAN.md` for its technical scope.
+- Browse `Concepts/` for topic notes and references; the DSA indexes link to implementations and problem statements.
+- [`CS-ROADMAP.md`](./CS-ROADMAP.md) maps computer-science fundamentals to the study tracks.
 
-This is a study-and-practice repository, not a production application. The solution indexes link directly to the concrete implementations.
+The DSA practice emphasizes the reasoning, complexity, correctness invariants, and edge cases behind each approach.
