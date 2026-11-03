@@ -1,6 +1,6 @@
 # LeetCode Solutions
 
-37 solution files tracked, organized by topic. Each file has inline comments explaining the approach and any tricky edge cases.
+38 solution files tracked, organized by topic. Each file has inline comments explaining the approach and any tricky edge cases.
 
 ---
 
@@ -8,7 +8,7 @@
 | Topic | Problems | Notes |
 |-------|----------|-------|
 | [Arrays](./Arrays/) | 4 | Greedy + simulation on sequences |
-| [Binary Search](./Binary%20Search/) | 1 | Halving the search space |
+| [Binary Search](./Binary%20Search/) | 2 | Halving the search space and searching monotonic answer ranges |
 | [Bit Manipulation](./Bit%20Manipulation/) | 5 | XOR, bit masking, bitwise tricks |
 | [Greedy](./Greedy/) | 3 | Local-best choices; see [Concepts/greedy.md](../Concepts/greedy.md) |
 | [Hashing](./Hashing/) | 4 | Frequency maps, existence checks |
@@ -35,6 +35,7 @@
 | # | Problem | Difficulty |
 |---|---------|-----------|
 | 704 | [Binary Search](https://leetcode.com/problems/binary-search/) | Easy |
+| 875 | [Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/) | Medium |
 
 ## Bit Manipulation
 

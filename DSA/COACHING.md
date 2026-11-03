@@ -451,8 +451,19 @@ was not reported; Linked List remains 🔴 Exposed.
 
 **Recursive variant (2026-11-03):** Added a second implementation carrying `(head, prev)` through recursive calls. The base case returns the new head; each frame must return the recursive call's result. Return propagation needed coaching; the variant was not independently derived. Kept the iterative method as LeetCode's `reverseList` entry point because Python recursion depth can fail on long lists. Acceptance was not reported.
 
-**Next assignments:** [Merge Two Sorted Lists (LC 21)](https://leetcode.com/problems/merge-two-sorted-lists/)
-and [Linked List Cycle (LC 141)](https://leetcode.com/problems/linked-list-cycle/).
+**Also pending from the Nov 2 schedule:** [Merge Two Sorted Lists (LC 21)](https://leetcode.com/problems/merge-two-sorted-lists/) and [Linked List Cycle (LC 141)](https://leetcode.com/problems/linked-list-cycle/).
+
+### Session 10 — 2026-11-03 — Koko Eating Bananas (LC 875)
+
+**What landed:** Binary search over the answer range `[1, max(piles)]` with an integer-ceiling feasibility check. The bound updates retain the first feasible speed.
+
+**What needed coaching:** Derived after hints on monotonic feasibility, bound convergence, and why `(pile + speed - 1) // speed` computes ceiling division for nonnegative integers. Corrected the complexity from `O(log n)` to `O(n log P)`, where `P = max(piles)`.
+
+**Best interview answer:** “For a candidate speed, I sum `ceil(pile / speed)` over all piles. Feasibility is monotonic, so I binary search for the first speed whose total hours are at most `h`. Each check is O(n), and there are O(log P) checks, giving O(n log P) time and O(1) extra space.”
+
+**Status:** Solution saved with coaching; LeetCode acceptance not reported.
+
+**Next assignment:** [Best Time to Buy and Sell Stock (LC 121)](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) — the remaining Oct 29 backlog item.
 
 ---
 

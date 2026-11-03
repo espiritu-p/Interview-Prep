@@ -31,7 +31,7 @@ solve it cold, explain it clearly, and handle variations under interview pressur
 | Two Pointers | 🟡 Developing | 5 problems (Valid Palindrome Easy, Move Zeroes Easy, Two Sum II Medium, 3Sum Medium, Container With Most Water Medium) | 3Sum duplicate handling and Container With Most Water pointer invariant needed coaching; Sort Colors and Trapping Rain Water remain untested |
 | Sliding Window | 🟠 Familiar | 2 problems (Fruits Into Baskets, Maximum Erasure Value) but template not solid; needs redo | Cannot reliably identify window expand/shrink conditions; medium problems unreliable |
 | Stack | 🟡 Developing | 4 problems (Valid Parentheses Easy independent, Min Stack Medium with hints, Evaluate RPN Medium correct first paste, Daily Temperatures Medium correct after monotonic-stack coaching) | Daily Temperatures pattern recognition and amortized O(n) explanation needed coaching; repeat cold. Car Fleet and Largest Rectangle remain untested |
-| Binary Search | 🟠 Familiar | Binary Search easy independent; LC 153 and LC 33 accepted with coaching | Need a cold solve of rotated-array search and answer-space binary search; Find Peak, 2D Matrix, Koko, and advanced variants untested |
+| Binary Search | 🟠 Familiar | Binary Search easy independent; LC 153/33 accepted with coaching; LC 875 answer-space binary search solution checked with coaching (acceptance unreported) | Need a cold solve of rotated-array and answer-space binary search; Find Peak, 2D Matrix, Time Based KV, and advanced variants untested |
 
 ---
 
@@ -136,7 +136,7 @@ solve it cold, explain it clearly, and handle variations under interview pressur
 - [x] Binary Search
 - [ ] Find Peak Element
 - [ ] Search a 2D Matrix
-- [ ] Koko Eating Bananas
+- [~] Koko Eating Bananas — answer-space binary search solution reviewed with coaching; LeetCode acceptance not reported; repeat cold
 - [~] Find Minimum in Rotated Sorted Array — accepted with coaching Oct 30; repeat cold to demonstrate independent mastery
 - [~] Search in Rotated Sorted Array — accepted with coaching Oct 30; repeat cold to demonstrate independent mastery
 - [ ] Time Based Key-Value Store
