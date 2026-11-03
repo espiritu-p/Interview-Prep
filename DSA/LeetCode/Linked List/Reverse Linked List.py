@@ -14,3 +14,17 @@ class Solution:
             cur = n         # move cur
 
         return prev
+
+    def reverseListRecursive(self, head: ListNode | None) -> ListNode | None:
+        """Recursive variant; O(n) call-stack space and Python recursion-limit risk."""
+        return self._reverse(head, None)
+
+    def _reverse(
+        self, head: ListNode | None, prev: ListNode | None
+    ) -> ListNode | None:
+        if head is None:
+            return prev
+
+        next_node = head.next
+        head.next = prev
+        return self._reverse(next_node, head)

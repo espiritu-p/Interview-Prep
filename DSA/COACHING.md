@@ -449,6 +449,8 @@ iterative solution uses O(1). Needs a cold repeat before independent mastery.
 **Status:** Solution saved to the repository with assistance. LeetCode acceptance
 was not reported; Linked List remains 🔴 Exposed.
 
+**Recursive variant (2026-11-03):** Added a second implementation carrying `(head, prev)` through recursive calls. The base case returns the new head; each frame must return the recursive call's result. Return propagation needed coaching; the variant was not independently derived. Kept the iterative method as LeetCode's `reverseList` entry point because Python recursion depth can fail on long lists. Acceptance was not reported.
+
 **Next assignments:** [Merge Two Sorted Lists (LC 21)](https://leetcode.com/problems/merge-two-sorted-lists/)
 and [Linked List Cycle (LC 141)](https://leetcode.com/problems/linked-list-cycle/).
 

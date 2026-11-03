@@ -39,7 +39,7 @@ solve it cold, explain it clearly, and handle variations under interview pressur
 
 | Topic | Grade | Evidence | Gap |
 |-------|-------|----------|-----|
-| Linked List | 🔴 Exposed | Reverse Linked List — iterative O(n)/O(1) solution completed with hints; needs a cold independent solve | Pointer-reversal invariant and recursive variant need cold practice |
+| Linked List | 🔴 Exposed | Reverse Linked List — iterative O(n)/O(1) solution completed with hints; recursive variant added with coaching | Pointer-reversal invariant and recursive return propagation need cold practice; recursive version may hit Python's recursion limit on long lists |
 | Trees (BFS / DFS) | ⬜ Not Started | — | — |
 | Tries | ⬜ Not Started | — | — |
 | Heap / Priority Queue | ⬜ Not Started | — | — |
@@ -144,7 +144,7 @@ solve it cold, explain it clearly, and handle variations under interview pressur
 
 ### Linked List
 
-- [~] Reverse Linked List — iterative pointer reversal after hints; repeat cold to demonstrate independent mastery
+- [~] Reverse Linked List — iterative pointer reversal after hints; recursive variant added with return propagation coached; repeat cold to demonstrate independent mastery
 - [ ] Merge Two Sorted Lists
 - [ ] Linked List Cycle
 - [ ] Middle of the Linked List

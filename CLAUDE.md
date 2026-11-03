@@ -40,6 +40,7 @@ in-memory state carries over — the coaching logs are the source of truth.
    primary. Prefer animated/systems channels (ByteByteGo, 3Blue1Brown, Gaurav Sen,
    StatQuest) with verified URLs. Avoid Medium links (paywalled). Note watch time
    alongside each link so sessions stay time-boxed.
+8. **LeetCode assignment order.** When asked which LC problems to solve today, start with the oldest unfinished or acceptance-unconfirmed items in the dated DSA backlog; continue forward through the backlog before listing that day's newer assignments.
 
 ### DSA Python warm-up drill
 1. **Every DSA session opens with 1–2 technical Python interview questions** drawn from
