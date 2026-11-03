@@ -6,7 +6,7 @@ One file per topic, created session-by-session as topics are covered.
 |---------|-------|--------|
 | scale-of-numbers.md | 1.1 | ✅ |
 | apis.md | 1.2 | ✅ |
-| dns-load-balancing.md | 1.3 | ⬜ |
+| dns-load-balancing.md | 1.3 | ✅ |
 | cdn.md | 1.4 | ⬜ |
 | proxies-gateways.md | 1.5 | ⬜ |
 | consistent-hashing.md | 1.6 | ⬜ |
