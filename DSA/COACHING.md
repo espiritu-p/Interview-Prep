@@ -29,10 +29,10 @@ Persistent record across all five tracks. Updated after every session.
 | Arrays and Hashing | ✅ Partial | Majority Element, Two Sum, Group Anagrams, Product of Array Except Self, Valid Sudoku, Encode and Decode Strings, Find the Duplicate Number, Sort an Array, Longest Consecutive Sequence |
 | Math and String | ✅ Partial | (covered well enough, not blocking) |
 | Bit Manipulation | 🔁 Needs redo | Problems solved but concepts need re-learning from scratch |
-| Sliding Window | 🔁 Needs redo | Best Time to Buy and Sell Stock, Max Vowels in Substring, Min Size Subarray Sum, Longest Substring Without Repeating Characters, Longest Repeating Character Replacement, Permutation in String, Min Window Substring, Sliding Window Maximum |
+| Sliding Window | 🔁 Needs redo | Best Time to Buy and Sell Stock (accepted after coaching; repeat cold), Max Vowels in Substring, Min Size Subarray Sum, Longest Substring Without Repeating Characters (accepted after coaching; repeat cold), Longest Repeating Character Replacement, Permutation in String, Min Window Substring, Sliding Window Maximum |
 | **Two Pointers** | ✅ Partial | Sort Colors, Trapping Rain Water |
 | **Stack** | ✅ Partial | Decode String, Asteroid Collision, Car Fleet, Largest Rectangle in Histogram |
-| **Binary Search** | ✅ Partial | Find Peak Element, Search a 2D Matrix, Koko Eating Bananas, Time Based Key-Value Store, Median of Two Sorted Arrays |
+| **Binary Search** | ✅ Partial | Find Peak Element, Search a 2D Matrix, Find Min in Rotated Sorted Array, Search in Rotated Sorted Array, Time Based Key-Value Store, Median of Two Sorted Arrays; Koko Eating Bananas solution saved after coaching, completion confirmed, acceptance unreported; repeat cold |
 
 ### Phase 2 — Core Data Structures
 
@@ -116,8 +116,8 @@ Missed day → roll forward and absorb into the next 3-problem easy day; Nov 15 
 | Oct 26 | Two Pointers · Stack | [3Sum](https://leetcode.com/problems/3sum/) · [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) | 3Sum ✅ Oct 27; Daily Temperatures ✅ Oct 28 (with coaching) |
 | Oct 27 | Two Pointers · Stack | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) · [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) + rolled [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) | Container With Most Water ✅ Oct 27; Daily Temperatures + Generate Parentheses ✅ Oct 28 (with coaching) |
 | Oct 28 | Binary Search | [Find Min in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) · [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-array/) | Find Min ✅ Oct 30 (accepted, with coaching); Search ✅ Oct 30 (accepted, with coaching) |
-| Oct 29 | Binary Search · Sliding Window | [Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/) · [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | |
-| Oct 30 | Sliding Window | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) · [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/) | |
+| Oct 29 | Binary Search · Sliding Window | [Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/) · [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | Koko ✅ Nov 4 (user-reported; acceptance/independence not recorded); Best Time to Buy and Sell Stock ✅ Nov 4 (accepted after coaching) |
+| Oct 30 | Sliding Window | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) · [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/) | Longest Substring Without Repeating Characters ✅ Nov 4 (accepted after coaching); Longest Repeating Character Replacement pending |
 | Oct 31 | Sliding Window · Hashing | [Permutation in String](https://leetcode.com/problems/permutation-in-string/) · [Two Sum](https://leetcode.com/problems/two-sum/) · [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | LC 567 solution reviewed and saved (with coaching; acceptance not reported); LC 1 + LC 49 pending |
 | Nov 1 | Hashing | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) · [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | |
 | Nov 2 | Linked List | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) · [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) · [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | Reverse Linked List ✅ iterative solution saved with hints; LeetCode acceptance not reported |
@@ -225,7 +225,8 @@ Question bank: [`Concepts/python-interview.md`](./Concepts/python-interview.md) 
 | 2026-10-28 | Q1.1 | `is` vs `==` | ✅ Previously answered correctly (user confirmed); no repeat today; cold streak not recorded |
 | 2026-10-28 | Q2.1 | list/dict implementations + operation costs | ✅ Previously answered correctly (user confirmed); no repeat today; cold streak not recorded |
 | 2026-10-30 | Q1.1 | `is` vs `==` | ✅ Correct cold answer; clears rotation |
-| 2026-10-30 | Q2.1 | list/dict implementations + operation costs | 🟡 Partial: costs mostly right; missed dynamic-array/hash-table implementations; repeat cold |
+| 2026-10-30 | Q2.1 | list/dict implementations + operation costs | 🟡 Partial at the time; superseded by the user's 2026-11-04 confirmation below |
+| 2026-11-04 | Q2.1 | list/dict implementations + operation costs | ✅ User confirms completed; cleared from the warm-up rotation — do not repeat |
 
 ---
 
@@ -432,9 +433,14 @@ giving O(n) time and O(1) space for the fixed 26-letter alphabet.”
 
 **Status:** Saved after coaching; LeetCode acceptance was not reported.
 
-**Assignment update:** LC 1 (Two Sum) and LC 49 (Group Anagrams) remain from the
-Oct 31 schedule. Oct 29–30 backlog entries remain unmarked; LC 875 is still next
-in the backlog. Other tracks remain paused.
+**Assignment update (as of Oct 31):** LC 1 (Two Sum) and LC 49 (Group Anagrams)
+remain from the Oct 31 schedule. Oct 29–30 backlog entries remained unmarked;
+LC 875 was next at that time. Other tracks remain paused.
+
+**Assignment update (2026-11-04):** User reports completing Koko Eating Bananas
+(LC 875); its solution is saved after coaching, but acceptance is unreported.
+LC 121 and LC 3 were accepted after coaching. The next oldest backlog problem
+is [Longest Repeating Character Replacement (LC 424)](https://leetcode.com/problems/longest-repeating-character-replacement/).
 
 ### Session 9 — 2026-11-02 — Reverse Linked List
 
@@ -464,6 +470,48 @@ was not reported; Linked List remains 🔴 Exposed.
 **Status:** Solution saved with coaching; LeetCode acceptance not reported.
 
 **Next assignment:** [Best Time to Buy and Sell Stock (LC 121)](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) — the remaining Oct 29 backlog item.
+
+### Session 11 — 2026-11-04 — Best Time to Buy and Sell Stock
+
+**What landed:** Replaced the O(n²) buy/sell-pair scan with a one-pass solution.
+For each day, calculate profit using the minimum price from earlier days, then
+update that minimum. The final O(n) solution was accepted on LeetCode.
+
+**What needed coaching:** The first solution was correct but checked every
+buy/sell pair and timed out. A hint to track the running minimum led to the
+linear solution; repeat it cold to demonstrate independent mastery.
+
+**Best interview answer:** “I scan once, checking today’s price against the
+lowest price from an earlier day, then update that minimum. I track the best
+profit seen, so the solution takes O(n) time and O(1) space.”
+
+**Status:** Accepted on LeetCode after coaching; independent mastery not yet
+demonstrated.
+
+**Next assignment:** [Longest Substring Without Repeating Characters (LC 3)](https://leetcode.com/problems/longest-substring-without-repeating-characters/).
+
+### Session 12 — 2026-11-04 — Longest Substring Without Repeating Characters
+
+**What landed:** Reworked the initial nested-loop attempt into a sliding window
+using a set. The left pointer removes characters until the repeated right
+character can be added; each valid window updates the maximum. The solution was
+accepted on LeetCode.
+
+**What needed coaching:** Initially treated `break` and changes to a `for` loop
+index as window control, then cleared the entire set on a duplicate. Tracing
+`abcabcbb` exposed that `ans` only updated on duplicates and that the method
+printed rather than returned the result. A set-based window made the invariant
+clear; the accepted solution still needed coaching.
+
+**Best interview answer:** “I maintain a window with no repeated characters.
+When the right character is already in the window, I remove characters from the
+left until it’s unique again, then update the maximum window length. Both
+pointers move at most n times, so it’s O(n) time and O(min(n, |Σ|)) space.”
+
+**Status:** Accepted on LeetCode after coaching; independent mastery not yet
+demonstrated.
+
+**Next assignment:** [Longest Repeating Character Replacement (LC 424)](https://leetcode.com/problems/longest-repeating-character-replacement/).
 
 ---
 

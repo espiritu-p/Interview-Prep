@@ -29,7 +29,7 @@ solve it cold, explain it clearly, and handle variations under interview pressur
 | Math and String | 🟡 Developing | 4 problems (Palindrome Number, Roman to Integer, Longest Common Prefix, Valid Palindrome) — all easy, independent | Not tested on medium/hard variants |
 | Bit Manipulation | 🟠 Familiar | 5 problems solved but concepts not internalized — XOR tricks and bitmasking patterns need re-learning from scratch | Cannot explain the underlying bit mechanics; needs redo before mediums |
 | Two Pointers | 🟡 Developing | 5 problems (Valid Palindrome Easy, Move Zeroes Easy, Two Sum II Medium, 3Sum Medium, Container With Most Water Medium) | 3Sum duplicate handling and Container With Most Water pointer invariant needed coaching; Sort Colors and Trapping Rain Water remain untested |
-| Sliding Window | 🟠 Familiar | 2 problems (Fruits Into Baskets, Maximum Erasure Value) but template not solid; needs redo | Cannot reliably identify window expand/shrink conditions; medium problems unreliable |
+| Sliding Window | 🟠 Familiar | Fruits Into Baskets and Maximum Erasure Value solved independently; LC 3 and LC 121 accepted after coaching; LC 567 reviewed with coaching | Window template needs cold practice; repeat LC 3 and LC 121, and improve medium-problem pattern recognition |
 | Stack | 🟡 Developing | 4 problems (Valid Parentheses Easy independent, Min Stack Medium with hints, Evaluate RPN Medium correct first paste, Daily Temperatures Medium correct after monotonic-stack coaching) | Daily Temperatures pattern recognition and amortized O(n) explanation needed coaching; repeat cold. Car Fleet and Largest Rectangle remain untested |
 | Binary Search | 🟠 Familiar | Binary Search easy independent; LC 153/33 accepted with coaching; LC 875 answer-space binary search solution checked with coaching (acceptance unreported) | Need a cold solve of rotated-array and answer-space binary search; Find Peak, 2D Matrix, Time Based KV, and advanced variants untested |
 
@@ -110,10 +110,10 @@ solve it cold, explain it clearly, and handle variations under interview pressur
 
 - [x] Fruits Into Baskets
 - [x] Maximum Erasure Value
-- [ ] Best Time to Buy and Sell Stock
+- [~] Best Time to Buy and Sell Stock — O(n) one-pass solution accepted after coaching; repeat cold to demonstrate independent mastery
 - [ ] Maximum Number of Vowels in a Substring of Given Length
 - [ ] Minimum Size Subarray Sum
-- [ ] Longest Substring Without Repeating Characters
+- [~] Longest Substring Without Repeating Characters — accepted after coaching; repeat cold to demonstrate independent mastery
 - [ ] Longest Repeating Character Replacement
 - [~] Permutation in String — fixed-window Counter solution reviewed with coaching; LeetCode acceptance not reported
 - [ ] Minimum Window Substring
@@ -136,7 +136,7 @@ solve it cold, explain it clearly, and handle variations under interview pressur
 - [x] Binary Search
 - [ ] Find Peak Element
 - [ ] Search a 2D Matrix
-- [~] Koko Eating Bananas — answer-space binary search solution reviewed with coaching; LeetCode acceptance not reported; repeat cold
+- [~] Koko Eating Bananas — answer-space binary search solution saved after coaching; user confirms completion; LeetCode acceptance not reported; repeat cold
 - [~] Find Minimum in Rotated Sorted Array — accepted with coaching Oct 30; repeat cold to demonstrate independent mastery
 - [~] Search in Rotated Sorted Array — accepted with coaching Oct 30; repeat cold to demonstrate independent mastery
 - [ ] Time Based Key-Value Store

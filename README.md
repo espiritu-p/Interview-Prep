@@ -6,7 +6,7 @@
 
 <p>
   <a href="https://www.python.org/"><img alt="Python 3.x" src="https://img.shields.io/badge/Python-3.x-3776AB?style=flat-square&amp;logo=python&amp;logoColor=white"></a>
-  <a href="./DSA/LeetCode/README.md"><img alt="38 LeetCode solution files" src="https://img.shields.io/badge/LeetCode-38%20solution%20files-FFA116?style=flat-square&amp;logo=leetcode&amp;logoColor=black"></a>
+  <a href="./DSA/LeetCode/README.md"><img alt="39 LeetCode solution files" src="https://img.shields.io/badge/LeetCode-39%20solution%20files-FFA116?style=flat-square&amp;logo=leetcode&amp;logoColor=black"></a>
   <a href="./DSA/Kattis/README.md"><img alt="144 Kattis problems solved" src="https://img.shields.io/badge/Kattis-144%20solved-1F8ACB?style=flat-square"></a>
 </p>
 

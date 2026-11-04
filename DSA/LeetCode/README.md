@@ -1,6 +1,6 @@
 # LeetCode Solutions
 
-38 solution files tracked, organized by topic. Each file has inline comments explaining the approach and any tricky edge cases.
+39 solution files tracked, organized by topic. Each file has inline comments explaining the approach and any tricky edge cases.
 
 ---
 
@@ -14,7 +14,7 @@
 | [Hashing](./Hashing/) | 4 | Frequency maps, existence checks |
 | [Linked List](./Linked%20List/) | 1 | In-place pointer rewiring |
 | [Math and String](./Math%20and%20String/) | 4 | Arithmetic, string parsing |
-| [Sliding Window](./Sliding%20Window/) | 3 | Variable/fixed window over array |
+| [Sliding Window](./Sliding%20Window/) | 4 | Variable/fixed window over array |
 | [Stack](./Stack/) | 5 | LIFO matching, monotonic stacks, and parentheses backtracking |
 | [Tree and Graph](./Tree%20and%20Graph/) | 1 | DFS on trees |
 | [Two Pointers](./Two%20Pointers/) | 4 | In-place pointer manipulation and sorted two-pointer scans |
@@ -83,6 +83,7 @@
 
 | # | Problem | Difficulty |
 |---|---------|-----------|
+| 3 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | Medium |
 | 567 | [Permutation in String](https://leetcode.com/problems/permutation-in-string/) | Medium |
 | 904 | [Fruits Into Baskets](https://leetcode.com/problems/fruit-into-baskets/) | Medium |
 | 1695 | [Maximum Erasure Value](https://leetcode.com/problems/maximum-erasure-value/) | Medium |
